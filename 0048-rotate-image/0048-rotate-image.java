@@ -26,12 +26,5 @@ class Solution {
                 end--;
             }
         }
-        
-        // for(int i=0; i < rows; i++){
-        //     for(int j=0;j<cols;j++){
-        //         System.out.print(matrix[i][j] + "\t");
-        //     }
-        //     System.out.println("\n");
-        // }
     }
 }
