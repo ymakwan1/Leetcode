@@ -1,47 +1,33 @@
 class Solution {
     public int numIslands(char[][] grid) {
-        int rows = grid.length;
-        int cols = grid[0].length;
-        
         int noOfIslands = 0;
-        boolean[][] visitedpoint = new boolean[rows][cols];
-        
-        for(int r = 0; r < rows; r++){
-            for(int c = 0; c < cols; c++){
-                if(grid[r][c] == '1' && !visitedpoint[r][c]){
+        for(int i=0;i<grid.length;i++){
+            for(int j=0;j<grid[0].length;j++){
+                if(grid[i][j] == '1'){
                     noOfIslands++;
-                    dfs(grid,visitedpoint,r,c);
+                    dfs(grid, i,j);
                 }
             }
         }
         return noOfIslands;
     }
     
-    public void dfs(char[][] grid, boolean[][] visitedpoint, int r, int c){
-        int rows = grid.length;
-        int cols = grid[0].length;
-        Stack<int[]> stack = new Stack<>();
+    private void dfs(char[][] grid, int r, int c){
+        grid[r][c] = 0;
+        if(r - 1 >= 0 && grid[r - 1][c] == '1'){
+            dfs(grid,r-1,c);
+        }
         
-        stack.push(new int[]{r,c});
-        visitedpoint[r][c] = true;
+        if(r + 1 < grid.length && grid[r + 1][c] == '1'){
+            dfs(grid,r+1,c);
+        }
         
-        while(!stack.isEmpty()){
-            int[] cell = stack.pop();
-            
-            int row = cell[0];
-            int col = cell[1];
-            
-            int[][] directions = {{-1,0},{1,0},{0,-1},{0,1}};
-            
-            for(int[] d : directions){
-                int nrow = row + d[0];
-                int ncol = col + d[1];
-                
-                if(nrow >= 0 && nrow < rows && ncol >=0 && ncol < cols && grid[nrow][ncol] == '1' && !visitedpoint[nrow][ncol]){
-                    stack.push(new int[]{nrow,ncol});
-                    visitedpoint[nrow][ncol] = true;
-                }
-            }
+        if(c - 1 >= 0 && grid[r][c - 1] == '1'){
+            dfs(grid,r,c-1);
+        }
+        
+        if(c + 1 < grid[0].length && grid[r][c + 1] == '1'){
+            dfs(grid,r,c+1);
         }
     }
 }
