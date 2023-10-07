@@ -2,7 +2,9 @@ class Solution {
     public boolean exist(char[][] board, String word) {
         int rows = board.length;
         int cols = board[0].length;
-
+        if(rows * cols < word.length()){
+            return false;
+        }
         for (int r = 0; r < rows; r++) {
             for (int c = 0; c < cols; c++) {
                 if(dfs(r,c,board,word,0)){
