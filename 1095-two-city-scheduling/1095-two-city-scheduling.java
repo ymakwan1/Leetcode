@@ -16,11 +16,11 @@ class Solution {
         for(int i = costs.length/2; i < costs.length; i++){
             sum += costs[i][1];
         }
-        System.out.println(sum);
+        // System.out.println(sum);
         // Print the sorted array
-        for (int[] row : costs) {
-            System.out.println(Arrays.toString(row));
-        }
+        // for (int[] row : costs) {
+        //     System.out.println(Arrays.toString(row));
+        // }
         return sum;
     }
 }
