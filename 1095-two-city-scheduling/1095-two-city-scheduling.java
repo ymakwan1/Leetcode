@@ -9,18 +9,20 @@ class Solution {
             }
         });
 
-        int sum = 0;
-        for(int i = 0; i < costs.length/2; i++){
-            sum += costs[i][0];
-        }
-        for(int i = costs.length/2; i < costs.length; i++){
-            sum += costs[i][1];
-        }
-        // System.out.println(sum);
-        // Print the sorted array
-        // for (int[] row : costs) {
-        //     System.out.println(Arrays.toString(row));
+        // int sum = 0;
+        // for(int i = 0; i < costs.length/2; i++){
+        //     sum += costs[i][0];
         // }
+        // for(int i = costs.length/2; i < costs.length; i++){
+        //     sum += costs[i][1];
+        // }
+        int sum = 0;
+        int mid = costs.length / 2;
+
+        for (int i = 0; i < costs.length; i++) {
+            sum += (i < mid) ? costs[i][0] : costs[i][1];
+        }
+
         return sum;
     }
 }
