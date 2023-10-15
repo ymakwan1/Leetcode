@@ -1,11 +1,8 @@
 class MRUQueue {
-    LinkedList<Integer> linkedList;
     int[] mruQueue;
     public MRUQueue(int n) {
-        linkedList = new LinkedList<>();
         mruQueue = new int[n];
         for(int i = 0; i < n; i++){
-            linkedList.add(i);
             mruQueue[i] = i+1;
         }
     }
@@ -17,9 +14,6 @@ class MRUQueue {
             mruQueue[i] = mruQueue[i+1];
         }
         mruQueue[mruQueue.length - 1] = element;
-        // int toReturn = linkedList.get(k-1);
-        // linkedList.remove(k-1);
-        // linkedList.add(linkedList.size(), toReturn);
         return element;
     }
 }
