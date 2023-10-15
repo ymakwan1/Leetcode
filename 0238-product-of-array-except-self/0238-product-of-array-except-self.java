@@ -1,22 +1,29 @@
 class Solution {
     public int[] productExceptSelf(int[] nums) {
         int n = nums.length;
-        int[] answer = new int[n];
-        
-        // Calculate the product of all elements to the left of each element
-        int[] leftProducts = new int[n];
-        leftProducts[0] = 1;
-        for (int i = 1; i < n; i++) {
-            leftProducts[i] = leftProducts[i - 1] * nums[i - 1];
+
+        int[] leftProd = new int[n];
+        int[] rightProd = new int[n];
+
+        int leftProdVal = 1;
+        int rightProdVal = 1;
+
+        int[] output = new int[n];
+
+        for(int i = 0; i < n; i++){
+            leftProd[i] = leftProdVal;
+            leftProdVal *= nums[i];
         }
-        
-        // Calculate the product of all elements to the right of each element
-        int rightProduct = 1;
-        for (int i = n - 1; i >= 0; i--) {
-            answer[i] = leftProducts[i] * rightProduct;
-            rightProduct *= nums[i];
+
+        for(int i = n-1; i >= 0; i--){
+            rightProd[i] = rightProdVal;
+            rightProdVal *= nums[i];
         }
-        
-        return answer;
+
+        for(int i = 0; i < n; i++){
+            output[i] = leftProd[i] * rightProd[i];
+        }
+
+        return output;
     }
 }
