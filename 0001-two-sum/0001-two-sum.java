@@ -1,15 +1,13 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-        ArrayList<Integer> twoSumArrayList = new ArrayList<Integer>();
-        for(int i = 0 ; i < nums.length ; i++){
-            for (int j = i + 1 ; j < nums.length ; j++){
-                if(nums[i]+nums[j] == target) {
-                    twoSumArrayList.add(i);
-                    twoSumArrayList.add(j);
+        int a=0;int b=0;
+        for(int i=0;i<nums.length;i++){
+            for(int j = i+1;j<nums.length;j++){
+                if(target == nums[i]+nums[j]){
+                    a = i;b=j;
                 }
             }
         }
-        int[] twoSumArray = twoSumArrayList.stream().mapToInt(Integer::intValue).toArray();
-        return twoSumArray;
+        return new int[]{a,b};
     }
 }
