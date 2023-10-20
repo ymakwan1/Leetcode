@@ -3,7 +3,7 @@ class Solution {
         HashMap<Character, String> map = new HashMap<>();
         List<String> result = new ArrayList<>();
 
-        if(digits == null || digits.length() == 0){
+        if(digits == null || digits.isEmpty()){
             return result;
         }
 
@@ -16,23 +16,23 @@ class Solution {
         map.put('8',"tuv");
         map.put('9',"wxyz");
         
-        generateCombinations(digits, map, 0, "", result);
+        //generateCombinations(digits, map, 0, "", result);
+        Queue<String> queue = new LinkedList<>();
+        queue.offer("");
 
+        for(char c : digits.toCharArray()){
+            int qSize = queue.size();
+            String letters = map.get(c);
+
+            for(int i = 0; i < qSize; i++){
+                String curr = queue.poll();
+                for(char d : letters.toCharArray()){
+                    queue.offer(curr+d);
+                }
+            }
+        }
+
+        result.addAll(queue);
         return result;
-    }
-
-    public void generateCombinations(String digits, HashMap<Character, String> map, int index, String curr, List<String> result){
-        if(index == digits.length()){
-            result.add(curr);
-            return;
-        }
-
-        char digit = digits.charAt(index);
-        String letters = map.get(digit);
-
-        for(int i = 0; i < letters.length(); i++){
-            char letter = letters.charAt(i);
-            generateCombinations(digits, map, index+1,curr+letter,result);
-        }
     }
 }
