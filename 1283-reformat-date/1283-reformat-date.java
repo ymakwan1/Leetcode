@@ -17,7 +17,7 @@ class Solution {
         String[] parts = date.split(" ");
         StringBuilder str = new StringBuilder();
         str.append(parts[2]).append("-").append(monthMap.get(parts[1])).append("-");
-        String dates = parts[0].replaceAll("[a-zA-Z]", "");
+        String dates = parts[0].substring(0, parts[0].length() - 2);
 
         if(dates.length() == 1){
             str.append("0"+dates);
