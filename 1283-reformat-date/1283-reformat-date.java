@@ -31,7 +31,7 @@ class Solution {
         monthMap.put("Nov", 11);
         monthMap.put("Dec", 12);
         
-        if(1 <= monthMap.get(month) && monthMap.get(month) <= 9){
+        if(String.valueOf(monthMap.get(month)).length() == 1){
             return "0"+String.valueOf(monthMap.get(month));
         }
 
