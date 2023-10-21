@@ -16,13 +16,14 @@ class Solution {
 
         String[] parts = date.split(" ");
         StringBuilder str = new StringBuilder();
-        str.append(parts[2]).append("-").append(monthMap.get(parts[1]));
+        str.append(parts[2]).append("-").append(monthMap.get(parts[1])).append("-");
         String dates = parts[0].replaceAll("[a-zA-Z]", "");
 
         if(dates.length() == 1){
-            dates = "0"+dates;
+            str.append("0"+dates);
+        }else{
+            str.append(dates);
         }
-        str.append("-").append(dates);
         return str.toString();
     }
 }
