@@ -2,9 +2,6 @@ class Solution {
     public boolean judgeCircle(String moves) {
         int x = 0;
         int y = 0;
-        int direction = 0;
-        int dx = 0;
-        int dy = 1;
 
         for(char ins : moves.toCharArray()){
             if(ins == 'U'){
