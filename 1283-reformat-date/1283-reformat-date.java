@@ -10,7 +10,7 @@ class Solution {
 
     public String handleDate(String dates){
         String result = dates.replaceAll("[a-zA-Z]", "");
-        if(1 <= Integer.parseInt(result) && Integer.parseInt(result) <= 9){
+        if(result.length() == 1){
             return "0"+result;
         }
         return result;
