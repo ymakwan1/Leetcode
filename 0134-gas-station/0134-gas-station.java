@@ -4,20 +4,22 @@ class Solution {
         int currentGas = 0;
         int totalGas = 0;
         int startStation = 0;
-        for(int i = 0; i < gas.length; i++){
+        int i = 0;
+        while(i < gas.length){
             int diff = gas[i] - cost[i];
             currentGas += diff;
             totalGas += diff;
             if(currentGas < 0){
                 currentGas = 0;
-                startStation = i + 1 ;
+                startStation = i + 1;
             }
+            i++;
         }
 
         if(totalGas >= 0){
             return startStation;
-        } else {
-            return -1;
-        }   
+        }
+            
+        return -1;   
     }
 }
