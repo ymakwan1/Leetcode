@@ -3,7 +3,6 @@
  * @return {number}
  */
 var argumentsLength = function(...args) {
-    //console.log(args);
 	return args.length;
 };
 
