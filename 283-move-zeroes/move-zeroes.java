@@ -11,9 +11,5 @@ class Solution {
                 start++;
             }
         }
-        while (start < nums.length) {
-            nums[start] = 0;
-            start++;
-        }
     }
 }
