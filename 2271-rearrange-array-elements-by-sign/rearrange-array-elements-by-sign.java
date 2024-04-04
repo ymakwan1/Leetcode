@@ -13,14 +13,12 @@ class Solution {
         }
         int j = 0;
         int i = 0;
-        //for(int j = 0;  j < positive.size(); j++){
         while(j < n){
             r[j] = positive.get(i);
             r[j+1] = negative.get(i);
             j += 2;
             i++;
-            // System.out.println(positive.get(j));
-            // System.out.println(negative.get(j));
+            
         }
         return r;
     }
