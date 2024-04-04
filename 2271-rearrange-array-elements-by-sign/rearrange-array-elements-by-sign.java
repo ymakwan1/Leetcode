@@ -1,25 +1,19 @@
 class Solution {
     public int[] rearrangeArray(int[] nums) {
-        int n = nums.length;
-        ArrayList<Integer> positive = new ArrayList<>();
-        ArrayList<Integer> negative = new ArrayList<>();
-        int[] r = new int[n];
-        for(int i : nums){
-            if(i < 0){
-                negative.add(i);
-            }else {
-                positive.add(i);
+        int pos = 0;
+        int neg = 1;
+        int[] ans = new int[nums.length];
+
+        for(int i = 0;  i < nums.length; i++){
+            if(nums[i] < 0){
+                ans[neg] = nums[i];
+                neg += 2;
+            } else {
+                ans[pos] = nums[i];
+                pos += 2;
             }
         }
-        int j = 0;
-        int i = 0;
-        while(j < n){
-            r[j] = positive.get(i);
-            r[j+1] = negative.get(i);
-            j += 2;
-            i++;
-            
-        }
-        return r;
+
+        return ans;
     }
 }
