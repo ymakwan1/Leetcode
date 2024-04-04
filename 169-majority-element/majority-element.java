@@ -9,13 +9,9 @@ class Solution {
 
         for(Map.Entry<Integer, Integer> m : map.entrySet()){
             if(m.getValue() > count){
-                // System.out.println(m.getValue());
-                // System.out.println(count);
                 count = m.getValue();
                 key = m.getKey();
-                // System.out.println("updated"+count);
             }
-            // System.out.println(m.getKey() +":"+m.getValue());
         }
         System.out.println(count);
         return (key);
