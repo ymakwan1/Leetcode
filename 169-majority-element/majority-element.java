@@ -8,12 +8,15 @@ class Solution {
         }
 
         for(Map.Entry<Integer, Integer> m : map.entrySet()){
-            if(m.getValue() > count){
-                count = m.getValue();
-                key = m.getKey();
+            // if(m.getValue() > count){
+            //     count = m.getValue();
+            //     key = m.getKey();
+            // }
+            if(m.getValue() > Math.floor(nums.length/2)){
+                return m.getKey();
             }
         }
-        System.out.println(count);
+        
         return (key);
     }
 }
