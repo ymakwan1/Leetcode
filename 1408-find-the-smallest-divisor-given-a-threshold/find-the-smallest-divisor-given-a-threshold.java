@@ -21,19 +21,6 @@ class Solution {
                 low = mid + 1;
             }
         }
-        // for(int i = 1; i <= max; i++){
-        //     check = sumCalc(nums, i);
-        //     // System.out.println("Sum: "+ check+" Pos: "+i);
-        //     if(check<=threshold){
-        //         return i;
-        //     }
-        // }
-        // for(int i = 0; i < n; i++){
-        //     check = sumCalc(nums, nums[i]);
-        //     if(check<=threshold){
-        //         return i;
-        //     }
-        // }
         return low;
     }
 
@@ -41,11 +28,8 @@ class Solution {
         int sum = 0;
         for(int i = 0; i < nums.length; i++){
             int c = (int)(Math.ceil((double)(nums[i])/pos));
-            // System.out.println(c);
             sum += c;
-            //System.out.println(sum);
         }
-        //System.out.println("Sum: "+ sum+" Pos: "+pos);
         return sum;
     }
 }
