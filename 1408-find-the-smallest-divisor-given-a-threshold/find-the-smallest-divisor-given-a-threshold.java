@@ -1,11 +1,13 @@
 class Solution {
     public int smallestDivisor(int[] nums, int threshold) {
-        int min = Integer.MAX_VALUE;
+        
         int max = Integer.MIN_VALUE;
         int n = nums.length;
-
+        
+        if(n > threshold){
+            return -1;
+        }
         for(int i = 0; i < n; i++){
-           // min = Math.min(min, nums[i]);
             max = Math.max(max, nums[i]);
         }
         
