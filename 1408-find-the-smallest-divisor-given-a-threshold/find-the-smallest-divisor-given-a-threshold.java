@@ -7,6 +7,7 @@ class Solution {
         if(n > threshold){
             return -1;
         }
+
         for(int i = 0; i < n; i++){
             max = Math.max(max, nums[i]);
         }
@@ -29,8 +30,7 @@ class Solution {
     private int sumCalc(int[] nums, int pos){
         int sum = 0;
         for(int i = 0; i < nums.length; i++){
-            int c = (int)(Math.ceil((double)(nums[i])/pos));
-            sum += c;
+            sum+=Math.ceil((double)(nums[i])/(double)(pos));
         }
         return sum;
     }
