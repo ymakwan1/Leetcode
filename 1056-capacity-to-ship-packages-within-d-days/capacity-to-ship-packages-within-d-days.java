@@ -9,9 +9,6 @@ class Solution {
             max = Math.max(max, weights[i]);
         }
 
-        System.out.println(sumOfWeights);
-        System.out.println(max);
-
         if (days == 1){
             return sumOfWeights;
         }
