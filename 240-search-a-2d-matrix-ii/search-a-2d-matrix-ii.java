@@ -4,12 +4,29 @@ class Solution {
         int column = matrix[0].length;
 
         for(int i = 0;  i < row; i++){
-            for(int j = 0; j < column; j++){
-                if(matrix[i][j] == target){
-                    return true;
-                }
+            if(binarySearch(matrix[i], target)){
+                return true;
             }
         }
+        return false;
+    }
+
+    private boolean binarySearch(int[] mat, int target){
+        int n = mat.length;
+        int low = 0;
+        int high = n - 1;
+
+        while(low <= high){
+            int mid = (low+high)/2;
+            if(mat[mid] == target){
+                return true;
+            } else if (target > mat[mid]){
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+
         return false;
     }
 }
