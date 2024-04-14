@@ -7,7 +7,7 @@ class Solution {
 
         // Binary search on columns
         while (left <= right) {
-            int midCol = left + (right - left) / 2;
+            int midCol = (left + right) / 2;
             
             // Find the row index of the maximum element in the middle column
             int maxRow = 0;
