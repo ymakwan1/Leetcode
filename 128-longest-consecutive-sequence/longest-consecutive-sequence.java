@@ -2,6 +2,7 @@ class Solution {
     public int longestConsecutive(int[] nums) {
         int n = nums.length;
 
+        //if length is 0 then return 0
         if(n == 0){
             return 0;
         }
