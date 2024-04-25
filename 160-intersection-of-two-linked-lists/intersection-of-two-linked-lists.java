@@ -11,14 +11,20 @@
  */
 public class Solution {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
-        ListNode dummyA = headA;
-        ListNode dummyB = headB;
+        HashSet<ListNode> set = new HashSet<>();
 
-        while(dummyA != dummyB){
-            dummyA = (dummyA != null) ? dummyA.next : headB;
-            dummyB = (dummyB != null) ? dummyB.next : headA;
+        while(headA != null){
+            set.add(headA);
+            headA = headA.next;
         }
 
-        return dummyA;
+        while(headB != null){
+            if(set.contains(headB)){
+                return headB;
+            }
+            headB = headB.next;
+        }
+
+        return null;
     }
 }
