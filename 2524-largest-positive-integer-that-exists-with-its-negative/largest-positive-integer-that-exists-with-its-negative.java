@@ -14,9 +14,8 @@ class Solution {
             }else{
                 start++;
             }
-            // start++;
-            // end--;
         }
+        
         return -1;
     }
 }
