@@ -10,23 +10,20 @@
  */
 class Solution {
     public ListNode doubleIt(ListNode head) {
-        Stack<Integer> stack = new Stack<>();
+        ListNode reversedHead = reverseList(head);
         ListNode curr = head;
-        while (curr != null) {
-            stack.push(curr.val);
-            curr = curr.next;
-        }
 
         ListNode dummy = new ListNode(0);
         ListNode tail = dummy; 
 
         int carry = 0;
-        while (!stack.isEmpty()) {
-            int temp = stack.pop() * 2 + carry;
+        while (reversedHead != null) {
+            int temp = reversedHead.val * 2 + carry;
             ListNode newNode = new ListNode(temp % 10);
             tail.next = newNode;
             tail = newNode; // Update the tail to the new node
             carry = temp / 10;
+            reversedHead = reversedHead.next;
         }
 
         // If there is a carry after doubling, add a new node for it
