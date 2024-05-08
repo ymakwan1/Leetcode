@@ -1,34 +1,32 @@
+import java.util.Arrays;
+import java.util.Comparator;
+
 class Solution {
     public String[] findRelativeRanks(int[] score) {
-        ArrayList<String> result = new ArrayList<>();
+        // Create a new array to store the ranks
+        String[] result = new String[score.length];
+        
+        // Sort the array in descending order
+        Integer[] indexes = new Integer[score.length];
         for (int i = 0; i < score.length; i++) {
-            result.add("");
+            indexes[i] = i;
         }
-        int i = 4;
-        for(int j = 0; j < score.length; j++){
-            int k = findMax(score);
-            if(j==0){
-                result.set(k, "Gold Medal");
-            } else if(j == 1){
-                result.set(k, "Silver Medal");
-            }else if (j== 2){
-                result.set(k, "Bronze Medal");
-            }else{
-                result.set(k, String.valueOf(j+1));
-            }
-            score[k] = -1;
-        }
-
-        return result.toArray(new String[0]);
-    }
-
-    private int findMax(int[] score){
-        int index = 0;
-        for (int i = 1; i < score.length; i++) {
-            if (score[i] > score[index]) {
-                index = i;
+        Arrays.sort(indexes, Comparator.comparingInt((Integer i) -> score[i]).reversed());
+        
+        // Assign ranks based on the sorted order
+        for (int i = 0; i < score.length; i++) {
+            int rank = i + 1;
+            if (rank == 1) {
+                result[indexes[i]] = "Gold Medal";
+            } else if (rank == 2) {
+                result[indexes[i]] = "Silver Medal";
+            } else if (rank == 3) {
+                result[indexes[i]] = "Bronze Medal";
+            } else {
+                result[indexes[i]] = String.valueOf(rank);
             }
         }
-        return index;
+
+        return result;
     }
 }
