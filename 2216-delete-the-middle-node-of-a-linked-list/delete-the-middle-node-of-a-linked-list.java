@@ -11,24 +11,22 @@
 class Solution {
     public ListNode deleteMiddle(ListNode head) {
         if (head == null || head.next == null) {
-            return null; 
+            return null; // Edge case: Empty list or single node
         }
 
-        int length = 0;
-        ListNode curr = head;
-        while (curr != null) {
-            length++;
-            curr = curr.next;
+        ListNode dummy = new ListNode(-1);
+        dummy.next = head;
+        ListNode slow = dummy;
+        ListNode fast = head;
+
+        // Move fast pointer to the end, and slow pointer to the middle
+        while (fast != null && fast.next != null) {
+            slow = slow.next;
+            fast = fast.next.next;
         }
 
-        int mid = length / 2; 
-        curr = head;
-
-        for (int i = 0; i < mid - 1; i++) {
-            curr = curr.next;
-        }
-
-        curr.next = curr.next.next;
+        ListNode middle = slow.next;
+        slow.next = middle.next;
 
         return head;
     }
