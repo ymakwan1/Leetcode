@@ -11,7 +11,7 @@
 class Solution {
     public ListNode deleteMiddle(ListNode head) {
         if (head == null || head.next == null) {
-            return null; // Edge case: Empty list or single node
+            return null; 
         }
 
         int length = 0;
@@ -21,15 +21,13 @@ class Solution {
             curr = curr.next;
         }
 
-        int mid = length / 2; // Index of the middle node
+        int mid = length / 2; 
         curr = head;
 
-        // Traverse to the node just before the middle node
         for (int i = 0; i < mid - 1; i++) {
             curr = curr.next;
         }
 
-        // Delete the middle node
         curr.next = curr.next.next;
 
         return head;
