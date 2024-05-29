@@ -14,26 +14,23 @@
  * }
  */
 class FindElements {
-    private TreeNode root;
-    private Set<Integer> set;
+    private boolean[] elements;
 
     public FindElements(TreeNode root) {
-        this.root = root;
-        this.set = new HashSet<>();
-        build(root, 0);
+        this.elements = new boolean[10000000]; 
+        recover(root, 0);
     }
 
-    private void build(TreeNode node, int val){
-        if(node != null){
-            set.add(val);
-            node.val = val;
-            build(node.left, 2*val+1);
-            build(node.right, 2*val+2);
+    private void recover(TreeNode node, int val) {
+        if (node != null) {
+            elements[val] = true;
+            recover(node.left, 2 * val + 1);
+            recover(node.right, 2 * val + 2);
         }
     }
-    
+
     public boolean find(int target) {
-        return set.contains(target);
+        return elements[target];
     }
 }
 
