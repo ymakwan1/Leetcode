@@ -3,7 +3,6 @@ class Solution {
         HashMap<Integer, Integer> hashMap = new HashMap<>();
         for (int i : nums) {
             hashMap.put(i, hashMap.getOrDefault(i, 0) + 1);
-            // map.put("example", map.getOrDefault("example", 1) + 1);
         }
 
         for(Map.Entry<Integer, Integer> mapEntry : hashMap.entrySet()){
@@ -12,6 +11,5 @@ class Solution {
             }
         }
         return 0;
-
     }
 }
