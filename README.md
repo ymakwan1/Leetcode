@@ -32,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0387-first-unique-character-in-a-string](https://github.com/ymakwan1/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0648-replace-words](https://github.com/ymakwan1/Leetcode/tree/master/0648-replace-words) |
 | [1044-find-common-characters](https://github.com/ymakwan1/Leetcode/tree/master/1044-find-common-characters) |
+| [2187-vowels-of-all-substrings](https://github.com/ymakwan1/Leetcode/tree/master/2187-vowels-of-all-substrings) |
 # Linked List
 |  |
 | ------- |
@@ -72,7 +73,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0523-continuous-subarray-sum](https://github.com/ymakwan1/Leetcode/tree/master/0523-continuous-subarray-sum) |
+| [2187-vowels-of-all-substrings](https://github.com/ymakwan1/Leetcode/tree/master/2187-vowels-of-all-substrings) |
 # Prefix Sum
 |  |
 | ------- |
 | [0523-continuous-subarray-sum](https://github.com/ymakwan1/Leetcode/tree/master/0523-continuous-subarray-sum) |
+# Dynamic Programming
+|  |
+| ------- |
+| [2187-vowels-of-all-substrings](https://github.com/ymakwan1/Leetcode/tree/master/2187-vowels-of-all-substrings) |
+# Combinatorics
+|  |
+| ------- |
+| [2187-vowels-of-all-substrings](https://github.com/ymakwan1/Leetcode/tree/master/2187-vowels-of-all-substrings) |
