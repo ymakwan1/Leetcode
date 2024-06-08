@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0049-group-anagrams](https://github.com/ymakwan1/Leetcode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/ymakwan1/Leetcode/tree/master/0056-merge-intervals) |
+| [0152-maximum-product-subarray](https://github.com/ymakwan1/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0179-largest-number](https://github.com/ymakwan1/Leetcode/tree/master/0179-largest-number) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/ymakwan1/Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0523-continuous-subarray-sum](https://github.com/ymakwan1/Leetcode/tree/master/0523-continuous-subarray-sum) |
@@ -85,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Dynamic Programming
 |  |
 | ------- |
+| [0152-maximum-product-subarray](https://github.com/ymakwan1/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [2187-vowels-of-all-substrings](https://github.com/ymakwan1/Leetcode/tree/master/2187-vowels-of-all-substrings) |
 # Combinatorics
 |  |
