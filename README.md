@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0442-find-all-duplicates-in-an-array](https://github.com/ymakwan1/Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
+| [0523-continuous-subarray-sum](https://github.com/ymakwan1/Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/ymakwan1/Leetcode/tree/master/0648-replace-words) |
 | [0817-design-hashmap](https://github.com/ymakwan1/Leetcode/tree/master/0817-design-hashmap) |
 | [0876-hand-of-straights](https://github.com/ymakwan1/Leetcode/tree/master/0876-hand-of-straights) |
@@ -16,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/ymakwan1/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/ymakwan1/Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
+| [0523-continuous-subarray-sum](https://github.com/ymakwan1/Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/ymakwan1/Leetcode/tree/master/0648-replace-words) |
 | [0817-design-hashmap](https://github.com/ymakwan1/Leetcode/tree/master/0817-design-hashmap) |
 | [0876-hand-of-straights](https://github.com/ymakwan1/Leetcode/tree/master/0876-hand-of-straights) |
@@ -60,3 +62,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0648-replace-words](https://github.com/ymakwan1/Leetcode/tree/master/0648-replace-words) |
+# Math
+|  |
+| ------- |
+| [0523-continuous-subarray-sum](https://github.com/ymakwan1/Leetcode/tree/master/0523-continuous-subarray-sum) |
+# Prefix Sum
+|  |
+| ------- |
+| [0523-continuous-subarray-sum](https://github.com/ymakwan1/Leetcode/tree/master/0523-continuous-subarray-sum) |
