@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/ymakwan1/Leetcode/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1137-height-checker](https://github.com/ymakwan1/Leetcode/tree/master/1137-height-checker) |
 | [1217-relative-sort-array](https://github.com/ymakwan1/Leetcode/tree/master/1217-relative-sort-array) |
+| [2602-maximum-enemy-forts-that-can-be-captured](https://github.com/ymakwan1/Leetcode/tree/master/2602-maximum-enemy-forts-that-can-be-captured) |
 # Hash Table
 |  |
 | ------- |
@@ -119,6 +120,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/ymakwan1/Leetcode/tree/master/0295-find-median-from-data-stream) |
+| [2602-maximum-enemy-forts-that-can-be-captured](https://github.com/ymakwan1/Leetcode/tree/master/2602-maximum-enemy-forts-that-can-be-captured) |
 # Heap (Priority Queue)
 |  |
 | ------- |
