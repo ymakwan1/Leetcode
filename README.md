@@ -32,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ymakwan1/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/ymakwan1/Leetcode/tree/master/0049-group-anagrams) |
+| [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/ymakwan1/Leetcode/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0387-first-unique-character-in-a-string](https://github.com/ymakwan1/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/ymakwan1/Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0523-continuous-subarray-sum](https://github.com/ymakwan1/Leetcode/tree/master/0523-continuous-subarray-sum) |
@@ -49,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/ymakwan1/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0049-group-anagrams](https://github.com/ymakwan1/Leetcode/tree/master/0049-group-anagrams) |
 | [0179-largest-number](https://github.com/ymakwan1/Leetcode/tree/master/0179-largest-number) |
+| [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/ymakwan1/Leetcode/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0387-first-unique-character-in-a-string](https://github.com/ymakwan1/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0648-replace-words](https://github.com/ymakwan1/Leetcode/tree/master/0648-replace-words) |
 | [0678-valid-parenthesis-string](https://github.com/ymakwan1/Leetcode/tree/master/0678-valid-parenthesis-string) |
@@ -153,6 +155,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ymakwan1/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/ymakwan1/Leetcode/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
 | [0487-max-consecutive-ones-ii](https://github.com/ymakwan1/Leetcode/tree/master/0487-max-consecutive-ones-ii) |
 | [0940-fruit-into-baskets](https://github.com/ymakwan1/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [1046-max-consecutive-ones-iii](https://github.com/ymakwan1/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
