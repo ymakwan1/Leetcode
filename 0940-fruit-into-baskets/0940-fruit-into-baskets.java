@@ -1,23 +1,18 @@
 class Solution {
     public int totalFruit(int[] fruits) {
         int maxLen = 0;
-        int[] hash = new int[1000001];
+        Map<Integer, Integer> fruitCount = new HashMap<>();
         int left = 0;
         int right = 0;
         int n = fruits.length;
-        int uniqueCount = 0;
 
-        while(right < n){
+        while (right < n) {
+            fruitCount.put(fruits[right], fruitCount.getOrDefault(fruits[right], 0) + 1);
 
-            if(hash[fruits[right]] == 0){
-                uniqueCount++;
-            }
-            hash[fruits[right]]++;
-
-            while (uniqueCount > 2) {
-                hash[fruits[left]]--;
-                if (hash[fruits[left]] == 0) {
-                    uniqueCount--;
+            while (fruitCount.size() > 2) {
+                fruitCount.put(fruits[left], fruitCount.get(fruits[left]) - 1);
+                if (fruitCount.get(fruits[left]) == 0) {
+                    fruitCount.remove(fruits[left]);
                 }
                 left++;
             }
