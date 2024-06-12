@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/ymakwan1/Leetcode/tree/master/0198-house-robber) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/ymakwan1/Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/ymakwan1/Leetcode/tree/master/0485-max-consecutive-ones) |
+| [0487-max-consecutive-ones-ii](https://github.com/ymakwan1/Leetcode/tree/master/0487-max-consecutive-ones-ii) |
 | [0523-continuous-subarray-sum](https://github.com/ymakwan1/Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/ymakwan1/Leetcode/tree/master/0648-replace-words) |
 | [0817-design-hashmap](https://github.com/ymakwan1/Leetcode/tree/master/0817-design-hashmap) |
@@ -112,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0152-maximum-product-subarray](https://github.com/ymakwan1/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/ymakwan1/Leetcode/tree/master/0198-house-robber) |
+| [0487-max-consecutive-ones-ii](https://github.com/ymakwan1/Leetcode/tree/master/0487-max-consecutive-ones-ii) |
 | [0678-valid-parenthesis-string](https://github.com/ymakwan1/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [2187-vowels-of-all-substrings](https://github.com/ymakwan1/Leetcode/tree/master/2187-vowels-of-all-substrings) |
 # Combinatorics
@@ -149,6 +151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ymakwan1/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0487-max-consecutive-ones-ii](https://github.com/ymakwan1/Leetcode/tree/master/0487-max-consecutive-ones-ii) |
 | [1046-max-consecutive-ones-iii](https://github.com/ymakwan1/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/ymakwan1/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/ymakwan1/Leetcode/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
