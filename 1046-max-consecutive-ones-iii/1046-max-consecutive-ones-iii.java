@@ -10,14 +10,18 @@ class Solution {
             if(nums[right] == 0){
                 zeroCount++;
             }
-            while(zeroCount > k){
+            
+            if(zeroCount > k){
                 if(nums[left] == 0){
                     zeroCount--;
                 }
                 left++;
             }
 
-            maxLength = Math.max(maxLength, right - left + 1);
+            if(zeroCount <= k){
+                maxLength = Math.max(maxLength, right - left + 1);
+            }
+            
             right++;
         }
 
