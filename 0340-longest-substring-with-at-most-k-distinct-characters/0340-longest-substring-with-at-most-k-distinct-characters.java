@@ -1,7 +1,7 @@
 class Solution {
     public int lengthOfLongestSubstringKDistinct(String s, int k) {
         int maxLen = 0;
-        int[] hash = new int[1000001];
+        int[] hash = new int[256];
         int left = 0;
         int right = 0;
         int n = s.length();
