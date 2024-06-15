@@ -10,7 +10,7 @@ class Solution {
         }
 
         Arrays.sort(projects, Comparator.comparingInt(a -> a[0]));
-        
+       
         PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
 
         int index = 0;
