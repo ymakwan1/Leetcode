@@ -63,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ymakwan1/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/ymakwan1/Leetcode/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/ymakwan1/Leetcode/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/ymakwan1/Leetcode/tree/master/0049-group-anagrams) |
 | [0179-largest-number](https://github.com/ymakwan1/Leetcode/tree/master/0179-largest-number) |
 | [0340-longest-substring-with-at-most-k-distinct-characters](https://github.com/ymakwan1/Leetcode/tree/master/0340-longest-substring-with-at-most-k-distinct-characters) |
@@ -148,6 +149,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/ymakwan1/Leetcode/tree/master/0022-generate-parentheses) |
 | [0152-maximum-product-subarray](https://github.com/ymakwan1/Leetcode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/ymakwan1/Leetcode/tree/master/0198-house-robber) |
 | [0487-max-consecutive-ones-ii](https://github.com/ymakwan1/Leetcode/tree/master/0487-max-consecutive-ones-ii) |
@@ -227,3 +229,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0129-sum-root-to-leaf-numbers](https://github.com/ymakwan1/Leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
+# Backtracking
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/ymakwan1/Leetcode/tree/master/0022-generate-parentheses) |
