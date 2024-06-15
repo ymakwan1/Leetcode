@@ -1,23 +1,20 @@
 class Solution {
     public int firstUniqChar(String s) {
-        Map<Character, Integer> orderedMap = new LinkedHashMap<>();
-        String[] words = s.split("");
-        ArrayList<String> arrayList = new ArrayList<>(Arrays.asList(words));
         
-        for(char c : s.toCharArray()){
-            if (orderedMap.containsKey(c)) {
-                orderedMap.put(c, orderedMap.get(c) + 1);
-            } else {
-                orderedMap.put(c, 1);
-            }
+        int[] frequency = new int[26];
+        
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            frequency[c - 'a']++;
         }
-         for (int i = 0; i < s.length(); i++) {
-            if (orderedMap.get(s.charAt(i)) == 1) {
-                return i;
+        
+        
+        for (int i = 0; i < s.length(); i++) {
+            if (frequency[s.charAt(i) - 'a'] == 1) {
+                return i; 
             }
         }
         
         return -1;
-        
     }
 }
