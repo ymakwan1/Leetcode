@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0442-find-all-duplicates-in-an-array](https://github.com/ymakwan1/Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/ymakwan1/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0487-max-consecutive-ones-ii](https://github.com/ymakwan1/Leetcode/tree/master/0487-max-consecutive-ones-ii) |
+| [0502-ipo](https://github.com/ymakwan1/Leetcode/tree/master/0502-ipo) |
 | [0523-continuous-subarray-sum](https://github.com/ymakwan1/Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/ymakwan1/Leetcode/tree/master/0648-replace-words) |
 | [0817-design-hashmap](https://github.com/ymakwan1/Leetcode/tree/master/0817-design-hashmap) |
@@ -92,6 +93,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0179-largest-number](https://github.com/ymakwan1/Leetcode/tree/master/0179-largest-number) |
 | [0253-meeting-rooms-ii](https://github.com/ymakwan1/Leetcode/tree/master/0253-meeting-rooms-ii) |
+| [0502-ipo](https://github.com/ymakwan1/Leetcode/tree/master/0502-ipo) |
 | [0678-valid-parenthesis-string](https://github.com/ymakwan1/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0876-hand-of-straights](https://github.com/ymakwan1/Leetcode/tree/master/0876-hand-of-straights) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/ymakwan1/Leetcode/tree/master/0982-minimum-increment-to-make-array-unique) |
@@ -106,6 +108,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0252-meeting-rooms](https://github.com/ymakwan1/Leetcode/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/ymakwan1/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/ymakwan1/Leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0502-ipo](https://github.com/ymakwan1/Leetcode/tree/master/0502-ipo) |
 | [0692-top-k-frequent-words](https://github.com/ymakwan1/Leetcode/tree/master/0692-top-k-frequent-words) |
 | [0876-hand-of-straights](https://github.com/ymakwan1/Leetcode/tree/master/0876-hand-of-straights) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/ymakwan1/Leetcode/tree/master/0982-minimum-increment-to-make-array-unique) |
@@ -169,6 +172,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0253-meeting-rooms-ii](https://github.com/ymakwan1/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/ymakwan1/Leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0502-ipo](https://github.com/ymakwan1/Leetcode/tree/master/0502-ipo) |
 | [0692-top-k-frequent-words](https://github.com/ymakwan1/Leetcode/tree/master/0692-top-k-frequent-words) |
 # Data Stream
 |  |
