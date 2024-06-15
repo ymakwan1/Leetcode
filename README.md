@@ -5,6 +5,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Array
 |  |
 | ------- |
+| [0046-permutations](https://github.com/ymakwan1/Leetcode/tree/master/0046-permutations) |
 | [0049-group-anagrams](https://github.com/ymakwan1/Leetcode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/ymakwan1/Leetcode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/ymakwan1/Leetcode/tree/master/0075-sort-colors) |
@@ -237,6 +238,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/ymakwan1/Leetcode/tree/master/0022-generate-parentheses) |
+| [0046-permutations](https://github.com/ymakwan1/Leetcode/tree/master/0046-permutations) |
 # Breadth-First Search
 |  |
 | ------- |
