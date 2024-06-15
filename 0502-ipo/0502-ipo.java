@@ -10,9 +10,7 @@ class Solution {
         }
 
         Arrays.sort(projects, Comparator.comparingInt(a -> a[0]));
-        for(int i = 0; i < n; i++){
-            System.out.println(projects[i][0] + " " + projects[i][1]);
-        }
+        
         PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
 
         int index = 0;
