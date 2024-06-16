@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/ymakwan1/Leetcode/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
 | [1137-height-checker](https://github.com/ymakwan1/Leetcode/tree/master/1137-height-checker) |
 | [1217-relative-sort-array](https://github.com/ymakwan1/Leetcode/tree/master/1217-relative-sort-array) |
+| [1305-number-of-visible-people-in-a-queue](https://github.com/ymakwan1/Leetcode/tree/master/1305-number-of-visible-people-in-a-queue) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ymakwan1/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/ymakwan1/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/ymakwan1/Leetcode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
@@ -169,6 +170,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0020-valid-parentheses](https://github.com/ymakwan1/Leetcode/tree/master/0020-valid-parentheses) |
 | [0678-valid-parenthesis-string](https://github.com/ymakwan1/Leetcode/tree/master/0678-valid-parenthesis-string) |
+| [1305-number-of-visible-people-in-a-queue](https://github.com/ymakwan1/Leetcode/tree/master/1305-number-of-visible-people-in-a-queue) |
 # Two Pointers
 |  |
 | ------- |
@@ -246,3 +248,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ymakwan1/Leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
+# Monotonic Stack
+|  |
+| ------- |
+| [1305-number-of-visible-people-in-a-queue](https://github.com/ymakwan1/Leetcode/tree/master/1305-number-of-visible-people-in-a-queue) |
