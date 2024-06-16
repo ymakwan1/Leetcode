@@ -15,6 +15,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0252-meeting-rooms](https://github.com/ymakwan1/Leetcode/tree/master/0252-meeting-rooms) |
 | [0253-meeting-rooms-ii](https://github.com/ymakwan1/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0283-move-zeroes](https://github.com/ymakwan1/Leetcode/tree/master/0283-move-zeroes) |
+| [0330-patching-array](https://github.com/ymakwan1/Leetcode/tree/master/0330-patching-array) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/ymakwan1/Leetcode/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/ymakwan1/Leetcode/tree/master/0485-max-consecutive-ones) |
 | [0487-max-consecutive-ones-ii](https://github.com/ymakwan1/Leetcode/tree/master/0487-max-consecutive-ones-ii) |
@@ -98,6 +99,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0179-largest-number](https://github.com/ymakwan1/Leetcode/tree/master/0179-largest-number) |
 | [0253-meeting-rooms-ii](https://github.com/ymakwan1/Leetcode/tree/master/0253-meeting-rooms-ii) |
+| [0330-patching-array](https://github.com/ymakwan1/Leetcode/tree/master/0330-patching-array) |
 | [0502-ipo](https://github.com/ymakwan1/Leetcode/tree/master/0502-ipo) |
 | [0678-valid-parenthesis-string](https://github.com/ymakwan1/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [0876-hand-of-straights](https://github.com/ymakwan1/Leetcode/tree/master/0876-hand-of-straights) |
