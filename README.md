@@ -141,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0523-continuous-subarray-sum](https://github.com/ymakwan1/Leetcode/tree/master/0523-continuous-subarray-sum) |
+| [0633-sum-of-square-numbers](https://github.com/ymakwan1/Leetcode/tree/master/0633-sum-of-square-numbers) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ymakwan1/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [2187-vowels-of-all-substrings](https://github.com/ymakwan1/Leetcode/tree/master/2187-vowels-of-all-substrings) |
 # Prefix Sum
@@ -178,6 +179,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0253-meeting-rooms-ii](https://github.com/ymakwan1/Leetcode/tree/master/0253-meeting-rooms-ii) |
 | [0283-move-zeroes](https://github.com/ymakwan1/Leetcode/tree/master/0283-move-zeroes) |
 | [0295-find-median-from-data-stream](https://github.com/ymakwan1/Leetcode/tree/master/0295-find-median-from-data-stream) |
+| [0633-sum-of-square-numbers](https://github.com/ymakwan1/Leetcode/tree/master/0633-sum-of-square-numbers) |
 | [2602-maximum-enemy-forts-that-can-be-captured](https://github.com/ymakwan1/Leetcode/tree/master/2602-maximum-enemy-forts-that-can-be-captured) |
 # Heap (Priority Queue)
 |  |
@@ -202,6 +204,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Binary Search
 |  |
 | ------- |
+| [0633-sum-of-square-numbers](https://github.com/ymakwan1/Leetcode/tree/master/0633-sum-of-square-numbers) |
 | [1046-max-consecutive-ones-iii](https://github.com/ymakwan1/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 # Sliding Window
 |  |
