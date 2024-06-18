@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0523-continuous-subarray-sum](https://github.com/ymakwan1/Leetcode/tree/master/0523-continuous-subarray-sum) |
 | [0648-replace-words](https://github.com/ymakwan1/Leetcode/tree/master/0648-replace-words) |
 | [0817-design-hashmap](https://github.com/ymakwan1/Leetcode/tree/master/0817-design-hashmap) |
+| [0853-most-profit-assigning-work](https://github.com/ymakwan1/Leetcode/tree/master/0853-most-profit-assigning-work) |
 | [0876-hand-of-straights](https://github.com/ymakwan1/Leetcode/tree/master/0876-hand-of-straights) |
 | [0940-fruit-into-baskets](https://github.com/ymakwan1/Leetcode/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/ymakwan1/Leetcode/tree/master/0966-binary-subarrays-with-sum) |
@@ -103,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0330-patching-array](https://github.com/ymakwan1/Leetcode/tree/master/0330-patching-array) |
 | [0502-ipo](https://github.com/ymakwan1/Leetcode/tree/master/0502-ipo) |
 | [0678-valid-parenthesis-string](https://github.com/ymakwan1/Leetcode/tree/master/0678-valid-parenthesis-string) |
+| [0853-most-profit-assigning-work](https://github.com/ymakwan1/Leetcode/tree/master/0853-most-profit-assigning-work) |
 | [0876-hand-of-straights](https://github.com/ymakwan1/Leetcode/tree/master/0876-hand-of-straights) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/ymakwan1/Leetcode/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/ymakwan1/Leetcode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
@@ -118,6 +120,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0295-find-median-from-data-stream](https://github.com/ymakwan1/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0502-ipo](https://github.com/ymakwan1/Leetcode/tree/master/0502-ipo) |
 | [0692-top-k-frequent-words](https://github.com/ymakwan1/Leetcode/tree/master/0692-top-k-frequent-words) |
+| [0853-most-profit-assigning-work](https://github.com/ymakwan1/Leetcode/tree/master/0853-most-profit-assigning-work) |
 | [0876-hand-of-straights](https://github.com/ymakwan1/Leetcode/tree/master/0876-hand-of-straights) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/ymakwan1/Leetcode/tree/master/0982-minimum-increment-to-make-array-unique) |
 | [1137-height-checker](https://github.com/ymakwan1/Leetcode/tree/master/1137-height-checker) |
@@ -180,6 +183,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0283-move-zeroes](https://github.com/ymakwan1/Leetcode/tree/master/0283-move-zeroes) |
 | [0295-find-median-from-data-stream](https://github.com/ymakwan1/Leetcode/tree/master/0295-find-median-from-data-stream) |
 | [0633-sum-of-square-numbers](https://github.com/ymakwan1/Leetcode/tree/master/0633-sum-of-square-numbers) |
+| [0853-most-profit-assigning-work](https://github.com/ymakwan1/Leetcode/tree/master/0853-most-profit-assigning-work) |
 | [2602-maximum-enemy-forts-that-can-be-captured](https://github.com/ymakwan1/Leetcode/tree/master/2602-maximum-enemy-forts-that-can-be-captured) |
 # Heap (Priority Queue)
 |  |
@@ -205,6 +209,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0633-sum-of-square-numbers](https://github.com/ymakwan1/Leetcode/tree/master/0633-sum-of-square-numbers) |
+| [0853-most-profit-assigning-work](https://github.com/ymakwan1/Leetcode/tree/master/0853-most-profit-assigning-work) |
 | [1046-max-consecutive-ones-iii](https://github.com/ymakwan1/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
 # Sliding Window
 |  |
