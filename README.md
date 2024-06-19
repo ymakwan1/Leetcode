@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1305-number-of-visible-people-in-a-queue](https://github.com/ymakwan1/Leetcode/tree/master/1305-number-of-visible-people-in-a-queue) |
 | [1370-count-number-of-nice-subarrays](https://github.com/ymakwan1/Leetcode/tree/master/1370-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/ymakwan1/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/ymakwan1/Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/ymakwan1/Leetcode/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 | [2602-maximum-enemy-forts-that-can-be-captured](https://github.com/ymakwan1/Leetcode/tree/master/2602-maximum-enemy-forts-that-can-be-captured) |
 # Hash Table
@@ -211,6 +212,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0633-sum-of-square-numbers](https://github.com/ymakwan1/Leetcode/tree/master/0633-sum-of-square-numbers) |
 | [0853-most-profit-assigning-work](https://github.com/ymakwan1/Leetcode/tree/master/0853-most-profit-assigning-work) |
 | [1046-max-consecutive-ones-iii](https://github.com/ymakwan1/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/ymakwan1/Leetcode/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 # Sliding Window
 |  |
 | ------- |
