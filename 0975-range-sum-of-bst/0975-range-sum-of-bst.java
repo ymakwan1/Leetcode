@@ -15,27 +15,27 @@
  */
 class Solution {
     int sum = 0;
+    
     public int rangeSumBST(TreeNode root, int low, int high) {
         dfs(root, low, high);
         return sum;
     }
 
-    private void dfs(TreeNode root, int low, int high){
-        if(root == null){
+    private void dfs(TreeNode root, int low, int high) {
+        if (root == null) {
             return;
         }
 
-        dfs(root.left, low, high);
-        if(inRange(root.val, low, high)){
+        if (root.val > low) {
+            dfs(root.left, low, high);
+        }
+        
+        if (root.val >= low && root.val <= high) {
             sum += root.val;
         }
-        dfs(root.right, low, high);
-    }
 
-    private boolean inRange(int val, int low, int high){
-        if(low <= val && val <= high){
-            return true;
+        if (root.val < high) {
+            dfs(root.right, low, high);
         }
-        return false;
     }
 }
