@@ -258,17 +258,20 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ymakwan1/Leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/ymakwan1/Leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0538-convert-bst-to-greater-tree](https://github.com/ymakwan1/Leetcode/tree/master/0538-convert-bst-to-greater-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/ymakwan1/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 # Depth-First Search
 |  |
 | ------- |
 | [0129-sum-root-to-leaf-numbers](https://github.com/ymakwan1/Leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0538-convert-bst-to-greater-tree](https://github.com/ymakwan1/Leetcode/tree/master/0538-convert-bst-to-greater-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/ymakwan1/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 # Binary Tree
 |  |
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ymakwan1/Leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/ymakwan1/Leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0538-convert-bst-to-greater-tree](https://github.com/ymakwan1/Leetcode/tree/master/0538-convert-bst-to-greater-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/ymakwan1/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 # Backtracking
 |  |
@@ -298,4 +301,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Binary Search Tree
 |  |
 | ------- |
+| [0538-convert-bst-to-greater-tree](https://github.com/ymakwan1/Leetcode/tree/master/0538-convert-bst-to-greater-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/ymakwan1/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
