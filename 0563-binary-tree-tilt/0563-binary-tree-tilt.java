@@ -17,6 +17,7 @@ class Solution {
     private int totalTilt = 0;
     public int findTilt(TreeNode root) {
         calculateSum(root);
+        System.gc();
         return totalTilt;
     }
 
