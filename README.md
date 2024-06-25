@@ -264,6 +264,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0975-range-sum-of-bst](https://github.com/ymakwan1/Leetcode/tree/master/0975-range-sum-of-bst) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/ymakwan1/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/ymakwan1/Leetcode/tree/master/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
+| [1609-find-all-the-lonely-nodes](https://github.com/ymakwan1/Leetcode/tree/master/1609-find-all-the-lonely-nodes) |
 # Depth-First Search
 |  |
 | ------- |
@@ -273,6 +274,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0975-range-sum-of-bst](https://github.com/ymakwan1/Leetcode/tree/master/0975-range-sum-of-bst) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/ymakwan1/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/ymakwan1/Leetcode/tree/master/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
+| [1609-find-all-the-lonely-nodes](https://github.com/ymakwan1/Leetcode/tree/master/1609-find-all-the-lonely-nodes) |
 # Binary Tree
 |  |
 | ------- |
@@ -283,6 +285,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0975-range-sum-of-bst](https://github.com/ymakwan1/Leetcode/tree/master/0975-range-sum-of-bst) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/ymakwan1/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/ymakwan1/Leetcode/tree/master/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
+| [1609-find-all-the-lonely-nodes](https://github.com/ymakwan1/Leetcode/tree/master/1609-find-all-the-lonely-nodes) |
 # Backtracking
 |  |
 | ------- |
@@ -293,6 +296,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ymakwan1/Leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/ymakwan1/Leetcode/tree/master/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
+| [1609-find-all-the-lonely-nodes](https://github.com/ymakwan1/Leetcode/tree/master/1609-find-all-the-lonely-nodes) |
 # Monotonic Stack
 |  |
 | ------- |
