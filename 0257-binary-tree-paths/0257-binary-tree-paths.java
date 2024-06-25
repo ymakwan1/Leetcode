@@ -25,6 +25,10 @@ class Solution {
     }
 
     private void dfs(TreeNode node, StringBuilder path, List<String> paths){
+        if(node == null) {
+            return;
+        }
+
         int length = path.length();
         path.append(node.val);
 
