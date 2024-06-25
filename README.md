@@ -269,6 +269,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0776-n-ary-tree-postorder-traversal](https://github.com/ymakwan1/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0933-increasing-order-search-tree](https://github.com/ymakwan1/Leetcode/tree/master/0933-increasing-order-search-tree) |
 | [0975-range-sum-of-bst](https://github.com/ymakwan1/Leetcode/tree/master/0975-range-sum-of-bst) |
+| [1079-sum-of-root-to-leaf-binary-numbers](https://github.com/ymakwan1/Leetcode/tree/master/1079-sum-of-root-to-leaf-binary-numbers) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/ymakwan1/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/ymakwan1/Leetcode/tree/master/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
 | [1609-find-all-the-lonely-nodes](https://github.com/ymakwan1/Leetcode/tree/master/1609-find-all-the-lonely-nodes) |
@@ -283,6 +284,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0776-n-ary-tree-postorder-traversal](https://github.com/ymakwan1/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0933-increasing-order-search-tree](https://github.com/ymakwan1/Leetcode/tree/master/0933-increasing-order-search-tree) |
 | [0975-range-sum-of-bst](https://github.com/ymakwan1/Leetcode/tree/master/0975-range-sum-of-bst) |
+| [1079-sum-of-root-to-leaf-binary-numbers](https://github.com/ymakwan1/Leetcode/tree/master/1079-sum-of-root-to-leaf-binary-numbers) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/ymakwan1/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/ymakwan1/Leetcode/tree/master/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
 | [1609-find-all-the-lonely-nodes](https://github.com/ymakwan1/Leetcode/tree/master/1609-find-all-the-lonely-nodes) |
@@ -296,6 +298,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0617-merge-two-binary-trees](https://github.com/ymakwan1/Leetcode/tree/master/0617-merge-two-binary-trees) |
 | [0933-increasing-order-search-tree](https://github.com/ymakwan1/Leetcode/tree/master/0933-increasing-order-search-tree) |
 | [0975-range-sum-of-bst](https://github.com/ymakwan1/Leetcode/tree/master/0975-range-sum-of-bst) |
+| [1079-sum-of-root-to-leaf-binary-numbers](https://github.com/ymakwan1/Leetcode/tree/master/1079-sum-of-root-to-leaf-binary-numbers) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/ymakwan1/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 | [1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree](https://github.com/ymakwan1/Leetcode/tree/master/1498-find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree) |
 | [1609-find-all-the-lonely-nodes](https://github.com/ymakwan1/Leetcode/tree/master/1609-find-all-the-lonely-nodes) |
