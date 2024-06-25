@@ -185,6 +185,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/ymakwan1/Leetcode/tree/master/0020-valid-parentheses) |
+| [0094-binary-tree-inorder-traversal](https://github.com/ymakwan1/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0678-valid-parenthesis-string](https://github.com/ymakwan1/Leetcode/tree/master/0678-valid-parenthesis-string) |
 | [1305-number-of-visible-people-in-a-queue](https://github.com/ymakwan1/Leetcode/tree/master/1305-number-of-visible-people-in-a-queue) |
 # Two Pointers
@@ -256,6 +257,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/ymakwan1/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ymakwan1/Leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/ymakwan1/Leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0538-convert-bst-to-greater-tree](https://github.com/ymakwan1/Leetcode/tree/master/0538-convert-bst-to-greater-tree) |
@@ -263,12 +265,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Depth-First Search
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/ymakwan1/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/ymakwan1/Leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0538-convert-bst-to-greater-tree](https://github.com/ymakwan1/Leetcode/tree/master/0538-convert-bst-to-greater-tree) |
 | [1114-binary-search-tree-to-greater-sum-tree](https://github.com/ymakwan1/Leetcode/tree/master/1114-binary-search-tree-to-greater-sum-tree) |
 # Binary Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/ymakwan1/Leetcode/tree/master/0094-binary-tree-inorder-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/ymakwan1/Leetcode/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/ymakwan1/Leetcode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0538-convert-bst-to-greater-tree](https://github.com/ymakwan1/Leetcode/tree/master/0538-convert-bst-to-greater-tree) |
