@@ -276,6 +276,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0145-binary-tree-postorder-traversal](https://github.com/ymakwan1/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0257-binary-tree-paths](https://github.com/ymakwan1/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0404-sum-of-left-leaves](https://github.com/ymakwan1/Leetcode/tree/master/0404-sum-of-left-leaves) |
+| [0501-find-mode-in-binary-search-tree](https://github.com/ymakwan1/Leetcode/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/ymakwan1/Leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0538-convert-bst-to-greater-tree](https://github.com/ymakwan1/Leetcode/tree/master/0538-convert-bst-to-greater-tree) |
 | [0563-binary-tree-tilt](https://github.com/ymakwan1/Leetcode/tree/master/0563-binary-tree-tilt) |
@@ -307,6 +308,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0257-binary-tree-paths](https://github.com/ymakwan1/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0404-sum-of-left-leaves](https://github.com/ymakwan1/Leetcode/tree/master/0404-sum-of-left-leaves) |
 | [0463-island-perimeter](https://github.com/ymakwan1/Leetcode/tree/master/0463-island-perimeter) |
+| [0501-find-mode-in-binary-search-tree](https://github.com/ymakwan1/Leetcode/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/ymakwan1/Leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0538-convert-bst-to-greater-tree](https://github.com/ymakwan1/Leetcode/tree/master/0538-convert-bst-to-greater-tree) |
 | [0563-binary-tree-tilt](https://github.com/ymakwan1/Leetcode/tree/master/0563-binary-tree-tilt) |
@@ -339,6 +341,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0145-binary-tree-postorder-traversal](https://github.com/ymakwan1/Leetcode/tree/master/0145-binary-tree-postorder-traversal) |
 | [0257-binary-tree-paths](https://github.com/ymakwan1/Leetcode/tree/master/0257-binary-tree-paths) |
 | [0404-sum-of-left-leaves](https://github.com/ymakwan1/Leetcode/tree/master/0404-sum-of-left-leaves) |
+| [0501-find-mode-in-binary-search-tree](https://github.com/ymakwan1/Leetcode/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/ymakwan1/Leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0538-convert-bst-to-greater-tree](https://github.com/ymakwan1/Leetcode/tree/master/0538-convert-bst-to-greater-tree) |
 | [0563-binary-tree-tilt](https://github.com/ymakwan1/Leetcode/tree/master/0563-binary-tree-tilt) |
@@ -399,6 +402,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 # Binary Search Tree
 |  |
 | ------- |
+| [0501-find-mode-in-binary-search-tree](https://github.com/ymakwan1/Leetcode/tree/master/0501-find-mode-in-binary-search-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/ymakwan1/Leetcode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0538-convert-bst-to-greater-tree](https://github.com/ymakwan1/Leetcode/tree/master/0538-convert-bst-to-greater-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ymakwan1/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
