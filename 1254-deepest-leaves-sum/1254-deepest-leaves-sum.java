@@ -16,9 +16,9 @@
 class Solution {
     private int sum = 0;
     private int maxDepth = 0;
+    
     public int deepestLeavesSum(TreeNode root) {
         maxDepth = maxDepthCalc(root);
-        System.out.println(maxDepth);
         dfs(root, 1);
         return sum;
     }
