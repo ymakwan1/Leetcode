@@ -435,6 +435,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1254-deepest-leaves-sum](https://github.com/ymakwan1/Leetcode/tree/master/1254-deepest-leaves-sum) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/ymakwan1/Leetcode/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [2347-count-nodes-equal-to-average-of-subtree](https://github.com/ymakwan1/Leetcode/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -453,10 +454,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1254-deepest-leaves-sum](https://github.com/ymakwan1/Leetcode/tree/master/1254-deepest-leaves-sum) |
+| [2347-count-nodes-equal-to-average-of-subtree](https://github.com/ymakwan1/Leetcode/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 ## Binary Tree
 |  |
 | ------- |
 | [1254-deepest-leaves-sum](https://github.com/ymakwan1/Leetcode/tree/master/1254-deepest-leaves-sum) |
+| [2347-count-nodes-equal-to-average-of-subtree](https://github.com/ymakwan1/Leetcode/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 ## Union Find
 |  |
 | ------- |
