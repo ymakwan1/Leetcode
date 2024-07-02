@@ -17,16 +17,11 @@ class Solution {
     public List<Integer> getAllElements(TreeNode root1, TreeNode root2) {
         List<Integer> list1 = new ArrayList<>();
         dfs(root1, list1);
-        List<Integer> list2 = new ArrayList<>();
-        dfs(root2, list2);
+        dfs(root2, list1);
 
         List<Integer> result = new ArrayList<>();
         for(int i = 0; i < list1.size(); i++){
             result.add(list1.get(i));
-        }
-
-        for(int i = 0; i < list2.size(); i++){
-            result.add(list2.get(i));
         }
 
         Collections.sort(result);
