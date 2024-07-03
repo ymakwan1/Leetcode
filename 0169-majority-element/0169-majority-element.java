@@ -1,23 +1,17 @@
-import java.util.Set;
-import java.util.HashSet;
-import java.util.Arrays;
-import java.util.Collections;
 class Solution {
     public int majorityElement(int[] nums) {
-        int count = 1, max = nums[0];
-        
-        for(int i = 0 ; i < nums.length ; i++) {
-            if (max == nums[i]) {
-                count++;
-            } else {
-                count--;
-            }
-            
-            if(count == 0){
-                max = nums[i];
-                count=1;
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int key=0;
+        for (int i : nums) {
+            map.put(i, map.getOrDefault(i, 0) + 1);
+        }
+
+        for(Map.Entry<Integer, Integer> m : map.entrySet()){
+            if(m.getValue() > Math.floor(nums.length/2)){
+                return m.getKey();
             }
         }
-        return max;
-     }
+        
+        return (key);
+    }
 }
