@@ -26,7 +26,7 @@ class Solution {
             pointer = pointer.next;
         }
 
-        //lastZero.next = null;
+        lastZero.next = null;
 
         return head.next;
     }
