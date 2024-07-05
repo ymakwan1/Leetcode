@@ -15,7 +15,7 @@ class Solution {
             return new int[]{-1, -1};
         }
 
-        int firstCp = -1, lastCp = -1, minDistance = Integer.MAX_VALUE;
+        int minDistance = Integer.MAX_VALUE;
         int index = 1;
         int prevVal = head.val;
         ListNode current = head.next;
