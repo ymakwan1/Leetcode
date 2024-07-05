@@ -10,21 +10,26 @@
  */
 class Solution {
     public int[] nodesBetweenCriticalPoints(ListNode head) {
+
+        if(head == null || head.next == null || head.next.next == null){
+            return new int[]{-1, -1};
+        }
+
         int firstCp = -1, lastCp = -1, minDistance = Integer.MAX_VALUE;
         int index = 1;
         int prevVal = head.val;
         ListNode current = head.next;
-        List<Integer> criticalPoints = new ArrayList<>();
+        int firstIndex = -1;
+        int lastIndex = -1;
 
         while(current != null && current.next != null){
             if((current.val > prevVal && current.val > current.next.val) || (current.val < prevVal && current.val < current.next.val)){
-                criticalPoints.add(index);
-                if(firstCp == -1){
-                    firstCp = index;
+                if(firstIndex == -1){
+                    firstIndex = index;
                 }else{
-                    minDistance = Math.min(minDistance, index - lastCp);
+                    minDistance = Math.min(minDistance, index - lastIndex);
                 }
-                lastCp = index;
+                lastIndex = index;
             }
 
             prevVal = current.val;
@@ -32,10 +37,10 @@ class Solution {
             index++;
         }
 
-        if(criticalPoints.size() < 2){
+        if(firstIndex == lastIndex){
             return new int[]{-1, -1};
         }
 
-        return new int[] {minDistance, criticalPoints.get(criticalPoints.size()-1) - criticalPoints.get(0)};
+        return new int[] {minDistance, lastIndex - firstIndex};
     }
 }
