@@ -1,14 +1,14 @@
 class Solution {
     public double averageWaitingTime(int[][] customers) {
-        double totalWaitTime = 0.0;
-        double currentTime = 0;
+        long totalWaitTime = 0;
+        long currentTime = 0;
 
-        for(int[] c : customers){
-            currentTime = Math.max(currentTime, c[0]);
-            totalWaitTime += ((currentTime - c[0]) + c[1]);
-            currentTime += c[1];
+        for (int[] customer : customers) {
+            currentTime = Math.max(currentTime, customer[0]);
+            totalWaitTime += (currentTime - customer[0]) + customer[1];
+            currentTime += customer[1];
         }
 
-        return (double)(totalWaitTime / customers.length);
+        return (double) totalWaitTime / customers.length;
     }
 }
