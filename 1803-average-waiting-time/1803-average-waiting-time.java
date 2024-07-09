@@ -4,7 +4,7 @@ class Solution {
         long currentTime = 0;
 
         for (int[] customer : customers) {
-            currentTime = currentTime > customer[0] ? currentTime : customer[0];
+            currentTime = Math.max(currentTime, customer[0]);
             totalWaitTime += (currentTime - customer[0]) + customer[1];
             currentTime += customer[1];
         }
