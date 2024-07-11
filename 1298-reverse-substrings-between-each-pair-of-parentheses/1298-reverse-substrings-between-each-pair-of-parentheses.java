@@ -1,26 +1,30 @@
 class Solution {
-    public String reverseParentheses(String s) { 
-        Stack<Character> stack = new Stack<>();
-        for(char c : s.toCharArray()){
-            if(c != ')'){
-                stack.push(c);
-            }else{
-                StringBuilder sb = new StringBuilder();
-                while(stack.peek() != '('){
-                    sb.append(stack.pop());
+    public String reverseParentheses(String s) {
+        Deque<Character> stack = new ArrayDeque<>();
+
+        for (char ch : s.toCharArray()) {
+            if (ch != ')') {
+                stack.push(ch);
+            } else {
+                
+                Deque<Character> queue = new ArrayDeque<>();
+                while (stack.peek() != '(') {
+                    queue.add(stack.pop());
                 }
+                
                 stack.pop();
-                for(char ch : sb.toString().toCharArray()){
-                    stack.push(ch);
+               
+                while (!queue.isEmpty()) {
+                    stack.push(queue.poll());
                 }
             }
         }
 
         StringBuilder result = new StringBuilder();
-        for (char ch : stack) {
-            result.append(ch);
+        while (!stack.isEmpty()) {
+            result.append(stack.removeLast());
         }
-        
+
         return result.toString();
     }
 }
