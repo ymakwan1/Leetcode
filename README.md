@@ -469,6 +469,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/ymakwan1/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1207-delete-nodes-and-return-forest](https://github.com/ymakwan1/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/ymakwan1/Leetcode/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
 | [1254-deepest-leaves-sum](https://github.com/ymakwan1/Leetcode/tree/master/1254-deepest-leaves-sum) |
@@ -480,6 +481,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Tree
 |  |
 | ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/ymakwan1/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1207-delete-nodes-and-return-forest](https://github.com/ymakwan1/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/ymakwan1/Leetcode/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
 | [1254-deepest-leaves-sum](https://github.com/ymakwan1/Leetcode/tree/master/1254-deepest-leaves-sum) |
@@ -574,6 +576,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search Tree
 |  |
 | ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/ymakwan1/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1427-all-elements-in-two-binary-search-trees](https://github.com/ymakwan1/Leetcode/tree/master/1427-all-elements-in-two-binary-search-trees) |
 ## Greedy
 |  |
@@ -662,6 +665,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/ymakwan1/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0948-sort-an-array](https://github.com/ymakwan1/Leetcode/tree/master/0948-sort-an-array) |
 ## Merge Sort
 |  |
@@ -704,4 +708,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1691-minimum-number-of-days-to-disconnect-island](https://github.com/ymakwan1/Leetcode/tree/master/1691-minimum-number-of-days-to-disconnect-island) |
+## Design
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/ymakwan1/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+## Data Stream
+|  |
+| ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/ymakwan1/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 <!---LeetCode Topics End-->
