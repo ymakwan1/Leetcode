@@ -10,11 +10,19 @@ class Solution {
             int currentMin = current.get(0);
             int currentMax = current.get(current.size() - 1);
 
-            result = Math.max(result, Math.abs(currentMax - minVal));
-            result = Math.max(result, Math.abs(maxVal - currentMin));
+            if (currentMax > minVal) {
+                result = Math.max(result, currentMax - minVal);
+            }
+            if (maxVal > currentMin) {
+                result = Math.max(result, maxVal - currentMin);
+            }
 
-            minVal = Math.min(minVal, currentMin);
-            maxVal = Math.max(maxVal, currentMax);
+            if (currentMin < minVal) {
+                minVal = currentMin;
+            }
+            if (currentMax > maxVal) {
+                maxVal = currentMax;
+            }
         }
 
         return result;
