@@ -513,6 +513,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0999-regions-cut-by-slashes](https://github.com/ymakwan1/Leetcode/tree/master/0999-regions-cut-by-slashes) |
 | [1196-filling-bookcase-shelves](https://github.com/ymakwan1/Leetcode/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/ymakwan1/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
+| [1240-stone-game-ii](https://github.com/ymakwan1/Leetcode/tree/master/1240-stone-game-ii) |
 | [1293-three-consecutive-odds](https://github.com/ymakwan1/Leetcode/tree/master/1293-three-consecutive-odds) |
 | [1333-sort-the-jumbled-numbers](https://github.com/ymakwan1/Leetcode/tree/master/1333-sort-the-jumbled-numbers) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/ymakwan1/Leetcode/tree/master/1496-lucky-numbers-in-a-matrix) |
@@ -631,6 +632,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0650-2-keys-keyboard](https://github.com/ymakwan1/Leetcode/tree/master/0650-2-keys-keyboard) |
 | [0870-magic-squares-in-grid](https://github.com/ymakwan1/Leetcode/tree/master/0870-magic-squares-in-grid) |
 | [0909-stone-game](https://github.com/ymakwan1/Leetcode/tree/master/0909-stone-game) |
+| [1240-stone-game-ii](https://github.com/ymakwan1/Leetcode/tree/master/1240-stone-game-ii) |
 | [1642-water-bottles](https://github.com/ymakwan1/Leetcode/tree/master/1642-water-bottles) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/ymakwan1/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2645-pass-the-pillow](https://github.com/ymakwan1/Leetcode/tree/master/2645-pass-the-pillow) |
@@ -706,6 +708,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0650-2-keys-keyboard](https://github.com/ymakwan1/Leetcode/tree/master/0650-2-keys-keyboard) |
 | [0909-stone-game](https://github.com/ymakwan1/Leetcode/tree/master/0909-stone-game) |
 | [1196-filling-bookcase-shelves](https://github.com/ymakwan1/Leetcode/tree/master/1196-filling-bookcase-shelves) |
+| [1240-stone-game-ii](https://github.com/ymakwan1/Leetcode/tree/master/1240-stone-game-ii) |
 | [1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/ymakwan1/Leetcode/tree/master/1456-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
 | [1511-count-number-of-teams](https://github.com/ymakwan1/Leetcode/tree/master/1511-count-number-of-teams) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/ymakwan1/Leetcode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
@@ -744,4 +747,9 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0909-stone-game](https://github.com/ymakwan1/Leetcode/tree/master/0909-stone-game) |
+| [1240-stone-game-ii](https://github.com/ymakwan1/Leetcode/tree/master/1240-stone-game-ii) |
+## Prefix Sum
+|  |
+| ------- |
+| [1240-stone-game-ii](https://github.com/ymakwan1/Leetcode/tree/master/1240-stone-game-ii) |
 <!---LeetCode Topics End-->
