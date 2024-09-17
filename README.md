@@ -554,6 +554,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2132-convert-1d-array-into-2d-array](https://github.com/ymakwan1/Leetcode/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2155-find-missing-observations](https://github.com/ymakwan1/Leetcode/tree/master/2155-find-missing-observations) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/ymakwan1/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2190-count-common-words-with-one-occurrence](https://github.com/ymakwan1/Leetcode/tree/master/2190-count-common-words-with-one-occurrence) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/ymakwan1/Leetcode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/ymakwan1/Leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2411-spiral-matrix-iv](https://github.com/ymakwan1/Leetcode/tree/master/2411-spiral-matrix-iv) |
@@ -582,6 +583,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1741-sort-array-by-increasing-frequency](https://github.com/ymakwan1/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/ymakwan1/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/ymakwan1/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2190-count-common-words-with-one-occurrence](https://github.com/ymakwan1/Leetcode/tree/master/2190-count-common-words-with-one-occurrence) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/ymakwan1/Leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
 | [2502-sort-the-people](https://github.com/ymakwan1/Leetcode/tree/master/2502-sort-the-people) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/ymakwan1/Leetcode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
@@ -646,6 +648,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0920-uncommon-words-from-two-sentences](https://github.com/ymakwan1/Leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/ymakwan1/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/ymakwan1/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2190-count-common-words-with-one-occurrence](https://github.com/ymakwan1/Leetcode/tree/master/2190-count-common-words-with-one-occurrence) |
 | [3276-minimum-number-of-pushes-to-type-word-ii](https://github.com/ymakwan1/Leetcode/tree/master/3276-minimum-number-of-pushes-to-type-word-ii) |
 ## Linked List
 |  |
@@ -718,6 +721,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1818-maximum-score-from-removing-substrings](https://github.com/ymakwan1/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/ymakwan1/Leetcode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/ymakwan1/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2190-count-common-words-with-one-occurrence](https://github.com/ymakwan1/Leetcode/tree/master/2190-count-common-words-with-one-occurrence) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/ymakwan1/Leetcode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2502-sort-the-people](https://github.com/ymakwan1/Leetcode/tree/master/2502-sort-the-people) |
 | [2727-number-of-senior-citizens](https://github.com/ymakwan1/Leetcode/tree/master/2727-number-of-senior-citizens) |
