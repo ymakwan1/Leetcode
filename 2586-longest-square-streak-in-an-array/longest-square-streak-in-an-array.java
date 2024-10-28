@@ -23,9 +23,7 @@ class Solution {
                 current = current * current;
 
                 // Break on overflow as current might become too large
-                if (current > 1_000_000) {
-                    break;
-                }
+                
             }
             maxStreak = Math.max(maxStreak, streak);
         }
