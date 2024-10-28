@@ -1,33 +1,19 @@
-import java.util.HashSet;
-import java.util.Arrays;
-
 class Solution {
     public int longestSquareStreak(int[] nums) {
-        Arrays.sort(nums); // Sort for ordered processing
-        HashSet<Integer> numSet = new HashSet<>();
-        
-        for (int num : nums) {
-            numSet.add(num);
-        }
-
-        int maxStreak = 0;
+        Map<Integer, Integer> map = new HashMap<>();
+        Arrays.sort(nums);
+        int result = -1;
 
         for (int num : nums) {
-            int streak = 0;
-            int current = num;
+            int sqrt = (int) Math.sqrt(num);
 
-            // Continue the streak while each squared value is in numSet
-            while (numSet.contains(current)) {
-                streak++;
-                numSet.remove(current); // Remove to avoid recounting in another streak
-                current = current * current;
-
-                // Break on overflow as current might become too large
-                
+            if (sqrt * sqrt == num && map.containsKey(sqrt)) {
+                map.put(num, map.get(sqrt) + 1);
+                result = Math.max(result, map.get(num));
+            } else {
+                map.put(num, 1);
             }
-            maxStreak = Math.max(maxStreak, streak);
         }
-
-        return maxStreak >= 2 ? maxStreak : -1; // If no streak longer than 1, return -1
+        return result;
     }
 }
