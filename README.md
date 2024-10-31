@@ -591,6 +591,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2502-sort-the-people](https://github.com/ymakwan1/Leetcode/tree/master/2502-sort-the-people) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/ymakwan1/Leetcode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/ymakwan1/Leetcode/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
+| [2554-minimum-total-distance-traveled](https://github.com/ymakwan1/Leetcode/tree/master/2554-minimum-total-distance-traveled) |
 | [2586-longest-square-streak-in-an-array](https://github.com/ymakwan1/Leetcode/tree/master/2586-longest-square-streak-in-an-array) |
 | [2727-number-of-senior-citizens](https://github.com/ymakwan1/Leetcode/tree/master/2727-number-of-senior-citizens) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/ymakwan1/Leetcode/tree/master/2794-maximum-number-of-moves-in-a-grid) |
@@ -667,6 +668,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1741-sort-array-by-increasing-frequency](https://github.com/ymakwan1/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/ymakwan1/Leetcode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2502-sort-the-people](https://github.com/ymakwan1/Leetcode/tree/master/2502-sort-the-people) |
+| [2554-minimum-total-distance-traveled](https://github.com/ymakwan1/Leetcode/tree/master/2554-minimum-total-distance-traveled) |
 | [2586-longest-square-streak-in-an-array](https://github.com/ymakwan1/Leetcode/tree/master/2586-longest-square-streak-in-an-array) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/ymakwan1/Leetcode/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2846-robot-collisions](https://github.com/ymakwan1/Leetcode/tree/master/2846-robot-collisions) |
@@ -865,6 +867,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/ymakwan1/Leetcode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/ymakwan1/Leetcode/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/ymakwan1/Leetcode/tree/master/2067-maximum-number-of-points-with-cost) |
+| [2554-minimum-total-distance-traveled](https://github.com/ymakwan1/Leetcode/tree/master/2554-minimum-total-distance-traveled) |
 | [2586-longest-square-streak-in-an-array](https://github.com/ymakwan1/Leetcode/tree/master/2586-longest-square-streak-in-an-array) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/ymakwan1/Leetcode/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Shortest Path
