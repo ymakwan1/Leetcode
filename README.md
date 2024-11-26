@@ -477,6 +477,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2171-second-minimum-time-to-reach-destination](https://github.com/ymakwan1/Leetcode/tree/master/2171-second-minimum-time-to-reach-destination) |
 | [2472-build-a-matrix-with-conditions](https://github.com/ymakwan1/Leetcode/tree/master/2472-build-a-matrix-with-conditions) |
 | [2803-modify-graph-edge-weights](https://github.com/ymakwan1/Leetcode/tree/master/2803-modify-graph-edge-weights) |
+| [3189-find-champion-ii](https://github.com/ymakwan1/Leetcode/tree/master/3189-find-champion-ii) |
 | [3235-minimum-cost-to-convert-string-i](https://github.com/ymakwan1/Leetcode/tree/master/3235-minimum-cost-to-convert-string-i) |
 ## Topological Sort
 |  |
