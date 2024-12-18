@@ -579,6 +579,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1496-lucky-numbers-in-a-matrix](https://github.com/ymakwan1/Leetcode/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1511-count-number-of-teams](https://github.com/ymakwan1/Leetcode/tree/master/1511-count-number-of-teams) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/ymakwan1/Leetcode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/ymakwan1/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/ymakwan1/Leetcode/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/ymakwan1/Leetcode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/ymakwan1/Leetcode/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
@@ -908,6 +909,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0776-n-ary-tree-postorder-traversal](https://github.com/ymakwan1/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [1197-parsing-a-boolean-expression](https://github.com/ymakwan1/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/ymakwan1/Leetcode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/ymakwan1/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/ymakwan1/Leetcode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1720-crawler-log-folder](https://github.com/ymakwan1/Leetcode/tree/master/1720-crawler-log-folder) |
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/ymakwan1/Leetcode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
@@ -1086,6 +1088,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/ymakwan1/Leetcode/tree/master/0042-trapping-rain-water) |
+| [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/ymakwan1/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/ymakwan1/Leetcode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 ## Monotonic Queue
 |  |
