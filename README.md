@@ -799,6 +799,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1917-maximum-average-pass-ratio](https://github.com/ymakwan1/Leetcode/tree/master/1917-maximum-average-pass-ratio) |
 | [2089-maximum-matrix-sum](https://github.com/ymakwan1/Leetcode/tree/master/2089-maximum-matrix-sum) |
 | [2300-construct-string-with-repeat-limit](https://github.com/ymakwan1/Leetcode/tree/master/2300-construct-string-with-repeat-limit) |
+| [2337-remove-digit-from-number-to-maximize-result](https://github.com/ymakwan1/Leetcode/tree/master/2337-remove-digit-from-number-to-maximize-result) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/ymakwan1/Leetcode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2640-maximum-number-of-integers-to-choose-from-a-range-i](https://github.com/ymakwan1/Leetcode/tree/master/2640-maximum-number-of-integers-to-choose-from-a-range-i) |
 | [2716-prime-subtraction-operation](https://github.com/ymakwan1/Leetcode/tree/master/2716-prime-subtraction-operation) |
@@ -918,6 +919,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/ymakwan1/Leetcode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2232-adding-spaces-to-a-string](https://github.com/ymakwan1/Leetcode/tree/master/2232-adding-spaces-to-a-string) |
 | [2300-construct-string-with-repeat-limit](https://github.com/ymakwan1/Leetcode/tree/master/2300-construct-string-with-repeat-limit) |
+| [2337-remove-digit-from-number-to-maximize-result](https://github.com/ymakwan1/Leetcode/tree/master/2337-remove-digit-from-number-to-maximize-result) |
 | [2414-move-pieces-to-obtain-a-string](https://github.com/ymakwan1/Leetcode/tree/master/2414-move-pieces-to-obtain-a-string) |
 | [2502-sort-the-people](https://github.com/ymakwan1/Leetcode/tree/master/2502-sort-the-people) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/ymakwan1/Leetcode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
@@ -1171,4 +1173,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/ymakwan1/Leetcode/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+## Enumeration
+|  |
+| ------- |
+| [2337-remove-digit-from-number-to-maximize-result](https://github.com/ymakwan1/Leetcode/tree/master/2337-remove-digit-from-number-to-maximize-result) |
 <!---LeetCode Topics End-->
