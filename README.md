@@ -568,6 +568,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0179-largest-number](https://github.com/ymakwan1/Leetcode/tree/master/0179-largest-number) |
 | [0239-sliding-window-maximum](https://github.com/ymakwan1/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/ymakwan1/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0494-target-sum](https://github.com/ymakwan1/Leetcode/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/ymakwan1/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ymakwan1/Leetcode/tree/master/0503-next-greater-element-ii) |
 | [0539-minimum-time-difference](https://github.com/ymakwan1/Leetcode/tree/master/0539-minimum-time-difference) |
@@ -1029,6 +1030,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0085-maximal-rectangle](https://github.com/ymakwan1/Leetcode/tree/master/0085-maximal-rectangle) |
 | [0241-different-ways-to-add-parentheses](https://github.com/ymakwan1/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/ymakwan1/Leetcode/tree/master/0264-ugly-number-ii) |
+| [0494-target-sum](https://github.com/ymakwan1/Leetcode/tree/master/0494-target-sum) |
 | [0647-palindromic-substrings](https://github.com/ymakwan1/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0650-2-keys-keyboard](https://github.com/ymakwan1/Leetcode/tree/master/0650-2-keys-keyboard) |
 | [0664-strange-printer](https://github.com/ymakwan1/Leetcode/tree/master/0664-strange-printer) |
@@ -1093,6 +1095,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0040-combination-sum-ii](https://github.com/ymakwan1/Leetcode/tree/master/0040-combination-sum-ii) |
+| [0494-target-sum](https://github.com/ymakwan1/Leetcode/tree/master/0494-target-sum) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/ymakwan1/Leetcode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 ## Game Theory
 |  |
