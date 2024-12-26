@@ -562,6 +562,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0040-combination-sum-ii](https://github.com/ymakwan1/Leetcode/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/ymakwan1/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0075-sort-colors](https://github.com/ymakwan1/Leetcode/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/ymakwan1/Leetcode/tree/master/0078-subsets) |
 | [0084-largest-rectangle-in-histogram](https://github.com/ymakwan1/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/ymakwan1/Leetcode/tree/master/0085-maximal-rectangle) |
 | [0169-majority-element](https://github.com/ymakwan1/Leetcode/tree/master/0169-majority-element) |
@@ -1095,6 +1096,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0040-combination-sum-ii](https://github.com/ymakwan1/Leetcode/tree/master/0040-combination-sum-ii) |
+| [0078-subsets](https://github.com/ymakwan1/Leetcode/tree/master/0078-subsets) |
 | [0494-target-sum](https://github.com/ymakwan1/Leetcode/tree/master/0494-target-sum) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/ymakwan1/Leetcode/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 ## Game Theory
@@ -1115,6 +1117,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/ymakwan1/Leetcode/tree/master/0078-subsets) |
 | [0476-number-complement](https://github.com/ymakwan1/Leetcode/tree/master/0476-number-complement) |
 | [1435-xor-queries-of-a-subarray](https://github.com/ymakwan1/Leetcode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/ymakwan1/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
