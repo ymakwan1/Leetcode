@@ -1,24 +1,21 @@
 class Solution {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
-        List<Integer> currentSubset = new ArrayList<>();
-        generateSubsets(nums, 0, currentSubset, result);
+        List<Integer> current = new ArrayList<>();
+        generateSubsets(0, nums, current, result);
         return result;
     }
 
-    private static void generateSubsets(int[] nums, int index, List<Integer> currentSubset, List<List<Integer>> result) {
-        if (index == nums.length) {
-            result.add(new ArrayList<>(currentSubset));
+    private void generateSubsets(int index, int[] nums, List<Integer> current, List<List<Integer>> result){
+        if(index >= nums.length){
+            result.add(new ArrayList<>(current));
             return;
         }
 
-        // Include the current element in the subset
-        currentSubset.add(nums[index]);
-        generateSubsets(nums, index + 1, currentSubset, result);
+        current.add(nums[index]);
+        generateSubsets(index + 1, nums, current, result); //Take
 
-        // Exclude the current element from the subset
-        currentSubset.remove(currentSubset.size() - 1);
-        generateSubsets(nums, index + 1, currentSubset, result);
+        current.remove(current.size() - 1);
+        generateSubsets(index + 1, nums, current, result); //Not take
     }
 }
-    
