@@ -872,6 +872,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/ymakwan1/Leetcode/tree/master/0029-divide-two-integers) |
 | [0241-different-ways-to-add-parentheses](https://github.com/ymakwan1/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/ymakwan1/Leetcode/tree/master/0264-ugly-number-ii) |
 | [0273-integer-to-english-words](https://github.com/ymakwan1/Leetcode/tree/master/0273-integer-to-english-words) |
@@ -1134,6 +1135,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/ymakwan1/Leetcode/tree/master/0029-divide-two-integers) |
 | [0078-subsets](https://github.com/ymakwan1/Leetcode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/ymakwan1/Leetcode/tree/master/0090-subsets-ii) |
 | [0476-number-complement](https://github.com/ymakwan1/Leetcode/tree/master/0476-number-complement) |
