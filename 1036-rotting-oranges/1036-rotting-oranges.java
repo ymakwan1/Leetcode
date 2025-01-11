@@ -4,21 +4,19 @@ class Solution {
         int cols = grid[0].length;
         int freshCount = 0;
         Queue<int[]> queue = new LinkedList<>();
-        boolean[][] visited = new boolean[rows][cols]; // Visited matrix
+        boolean[][] visited = new boolean[rows][cols]; 
 
-        // Step 1: Initialize the queue with all rotten oranges and count fresh oranges
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 if (grid[i][j] == 2) {
-                    queue.offer(new int[]{i, j, 0}); // {row, col, time}
-                    visited[i][j] = true; // Mark as visited
+                    queue.offer(new int[]{i, j, 0}); 
+                    visited[i][j] = true; 
                 } else if (grid[i][j] == 1) {
                     freshCount++;
                 }
             }
         }
 
-        // Step 2: Perform BFS to simulate the rotting process
         int time = 0;
         int[][] directions = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}}; 
 
