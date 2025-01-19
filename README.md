@@ -462,6 +462,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/ymakwan1/Leetcode/tree/master/0130-surrounded-regions) |
+| [0407-trapping-rain-water-ii](https://github.com/ymakwan1/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/ymakwan1/Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0542-01-matrix](https://github.com/ymakwan1/Leetcode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/ymakwan1/Leetcode/tree/master/0547-number-of-provinces) |
@@ -587,6 +588,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0216-combination-sum-iii](https://github.com/ymakwan1/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0239-sliding-window-maximum](https://github.com/ymakwan1/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/ymakwan1/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0407-trapping-rain-water-ii](https://github.com/ymakwan1/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0494-target-sum](https://github.com/ymakwan1/Leetcode/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/ymakwan1/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/ymakwan1/Leetcode/tree/master/0503-next-greater-element-ii) |
@@ -1022,6 +1024,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0085-maximal-rectangle](https://github.com/ymakwan1/Leetcode/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/ymakwan1/Leetcode/tree/master/0130-surrounded-regions) |
+| [0407-trapping-rain-water-ii](https://github.com/ymakwan1/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0542-01-matrix](https://github.com/ymakwan1/Leetcode/tree/master/0542-01-matrix) |
 | [0787-sliding-puzzle](https://github.com/ymakwan1/Leetcode/tree/master/0787-sliding-puzzle) |
 | [0870-magic-squares-in-grid](https://github.com/ymakwan1/Leetcode/tree/master/0870-magic-squares-in-grid) |
@@ -1049,6 +1052,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/ymakwan1/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0264-ugly-number-ii](https://github.com/ymakwan1/Leetcode/tree/master/0264-ugly-number-ii) |
+| [0407-trapping-rain-water-ii](https://github.com/ymakwan1/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/ymakwan1/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/ymakwan1/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/ymakwan1/Leetcode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
