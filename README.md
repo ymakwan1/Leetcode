@@ -442,6 +442,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/ymakwan1/Leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0988-flip-equivalent-binary-trees](https://github.com/ymakwan1/Leetcode/tree/master/0988-flip-equivalent-binary-trees) |
 | [0999-regions-cut-by-slashes](https://github.com/ymakwan1/Leetcode/tree/master/0999-regions-cut-by-slashes) |
+| [1073-number-of-enclaves](https://github.com/ymakwan1/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/ymakwan1/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/ymakwan1/Leetcode/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
 | [1254-deepest-leaves-sum](https://github.com/ymakwan1/Leetcode/tree/master/1254-deepest-leaves-sum) |
@@ -474,6 +475,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0820-find-eventual-safe-states](https://github.com/ymakwan1/Leetcode/tree/master/0820-find-eventual-safe-states) |
 | [0999-regions-cut-by-slashes](https://github.com/ymakwan1/Leetcode/tree/master/0999-regions-cut-by-slashes) |
 | [1036-rotting-oranges](https://github.com/ymakwan1/Leetcode/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/ymakwan1/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1243-sum-of-nodes-with-even-valued-grandparent](https://github.com/ymakwan1/Leetcode/tree/master/1243-sum-of-nodes-with-even-valued-grandparent) |
 | [1254-deepest-leaves-sum](https://github.com/ymakwan1/Leetcode/tree/master/1254-deepest-leaves-sum) |
 | [1396-count-servers-that-communicate](https://github.com/ymakwan1/Leetcode/tree/master/1396-count-servers-that-communicate) |
@@ -579,6 +581,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0547-number-of-provinces](https://github.com/ymakwan1/Leetcode/tree/master/0547-number-of-provinces) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/ymakwan1/Leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [0999-regions-cut-by-slashes](https://github.com/ymakwan1/Leetcode/tree/master/0999-regions-cut-by-slashes) |
+| [1073-number-of-enclaves](https://github.com/ymakwan1/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1396-count-servers-that-communicate](https://github.com/ymakwan1/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1701-remove-max-number-of-edges-to-keep-graph-fully-traversable](https://github.com/ymakwan1/Leetcode/tree/master/1701-remove-max-number-of-edges-to-keep-graph-fully-traversable) |
 | [2035-count-sub-islands](https://github.com/ymakwan1/Leetcode/tree/master/2035-count-sub-islands) |
@@ -631,6 +634,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1025-minimum-cost-for-tickets](https://github.com/ymakwan1/Leetcode/tree/master/1025-minimum-cost-for-tickets) |
 | [1036-rotting-oranges](https://github.com/ymakwan1/Leetcode/tree/master/1036-rotting-oranges) |
 | [1063-best-sightseeing-pair](https://github.com/ymakwan1/Leetcode/tree/master/1063-best-sightseeing-pair) |
+| [1073-number-of-enclaves](https://github.com/ymakwan1/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/ymakwan1/Leetcode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1196-filling-bookcase-shelves](https://github.com/ymakwan1/Leetcode/tree/master/1196-filling-bookcase-shelves) |
 | [1207-delete-nodes-and-return-forest](https://github.com/ymakwan1/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
@@ -1055,6 +1059,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0921-spiral-matrix-iii](https://github.com/ymakwan1/Leetcode/tree/master/0921-spiral-matrix-iii) |
 | [0999-regions-cut-by-slashes](https://github.com/ymakwan1/Leetcode/tree/master/0999-regions-cut-by-slashes) |
 | [1036-rotting-oranges](https://github.com/ymakwan1/Leetcode/tree/master/1036-rotting-oranges) |
+| [1073-number-of-enclaves](https://github.com/ymakwan1/Leetcode/tree/master/1073-number-of-enclaves) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/ymakwan1/Leetcode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1396-count-servers-that-communicate](https://github.com/ymakwan1/Leetcode/tree/master/1396-count-servers-that-communicate) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/ymakwan1/Leetcode/tree/master/1402-count-square-submatrices-with-all-ones) |
