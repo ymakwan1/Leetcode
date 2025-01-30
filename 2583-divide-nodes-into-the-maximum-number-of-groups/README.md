@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups">2583. Divide Nodes Into the Maximum Number of Groups</a></h2><h3>Hard</h3><hr><p>You are given a positive integer <code>n</code> representing the number of nodes in an <strong>undirected</strong> graph. The nodes are labeled from <code>1</code> to <code>n</code>.</p>
+<h2><a href="https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups">Divide Nodes Into the Maximum Number of Groups</a></h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>You are given a positive integer <code>n</code> representing the number of nodes in an <strong>undirected</strong> graph. The nodes are labeled from <code>1</code> to <code>n</code>.</p>
 
 <p>You are also given a 2D integer array <code>edges</code>, where <code>edges[i] = [a<sub>i, </sub>b<sub>i</sub>]</code> indicates that there is a <strong>bidirectional</strong> edge between nodes <code>a<sub>i</sub></code> and <code>b<sub>i</sub></code>. <strong>Notice</strong> that the given graph may be disconnected.</p>
 
