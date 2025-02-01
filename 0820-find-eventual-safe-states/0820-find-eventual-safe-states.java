@@ -14,10 +14,6 @@ class Solution {
                 inDegree[i]++;
             }
         }
-
-        // for(int i : inDegree){
-        //     System.out.print(i);
-        // }
         
         Queue<Integer> queue = new LinkedList<>();
         for (int i = 0; i < n; i++) {
