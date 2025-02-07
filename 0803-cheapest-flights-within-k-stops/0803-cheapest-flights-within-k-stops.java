@@ -1,36 +1,55 @@
-import java.util.*;
+class Pair{
+    int to, price;
+    Pair(int toIn, int priceIn){
+        to = toIn;
+        price = priceIn;
+    }
+}
+class Tuple{
+    int stops, node, dist;
+    Tuple(int stopsIn, int nodeIn, int distIn){
+        stops = stopsIn;
+        node = nodeIn;
+        dist = distIn;
+    }
+}
 
 class Solution {
     public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
-        // Adjacency list using HashMap
-        Map<Integer, List<int[]>> adj = new HashMap<>();
-        for (int[] flight : flights) {
-            adj.computeIfAbsent(flight[0], x -> new ArrayList<>()).add(new int[]{flight[1], flight[2]});
+        ArrayList<ArrayList<Pair>> adj = new ArrayList<>();
+        for(int i = 0; i < n; i++){
+            adj.add(new ArrayList<>());
         }
 
-        // Queue for BFS traversal (stops, node, cost)
-        Queue<int[]> q = new LinkedList<>();
-        q.add(new int[]{0, src, 0}); // {stops, node, cost}
+        int m = flights.length;
+        for(int i = 0; i < m; i++){
+            adj.get(flights[i][0]).add(new Pair(flights[i][1], flights[i][2]));
+        }
 
-        // Distance array to store the minimum cost to reach each node
+        Queue<Tuple> q = new LinkedList<>();
+        q.add(new Tuple(0, src, 0)); //stops, node, dist
+
         int[] distance = new int[n];
         Arrays.fill(distance, Integer.MAX_VALUE);
         distance[src] = 0;
 
-        while (!q.isEmpty()) {
-            int[] cur = q.poll();
-            int stops = cur[0], node = cur[1], cost = cur[2];
+        while(!q.isEmpty()){
+            int stops = q.peek().stops;
+            int node = q.peek().node;
+            int dist = q.peek().dist;
+            q.poll();
 
-            if (stops > k) continue;
+            if(stops > k){
+                continue;
+            }
 
-            for (int[] neighbor : adj.getOrDefault(node, new ArrayList<>())) {
-                int adjNode = neighbor[0], price = neighbor[1];
-                int newCost = cost + price;
+            for(Pair p : adj.get(node)){
+                int adjNode = p.to;
+                int edgeWt = p.price;
 
-                // Only update if we find a cheaper way to reach adjNode
-                if (newCost < distance[adjNode]) {
-                    distance[adjNode] = newCost;
-                    q.add(new int[]{stops + 1, adjNode, newCost});
+                if(dist + edgeWt < distance[adjNode] && stops <= k){
+                    distance[adjNode] = dist + edgeWt;
+                    q.add(new Tuple(stops + 1, adjNode, distance[adjNode]));
                 }
             }
         }
