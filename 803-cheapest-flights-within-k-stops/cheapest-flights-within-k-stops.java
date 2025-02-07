@@ -54,11 +54,6 @@ class Solution {
             }
         }
 
-        for(int i = 0; i < n; i++){
-            if(distance[i] == Integer.MAX_VALUE){
-                distance[i] = -1;
-            }
-        }
-        return distance[dst];
+        return distance[dst] == Integer.MAX_VALUE ? -1 : distance[dst];
     }
 }
