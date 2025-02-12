@@ -728,6 +728,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2448-count-number-of-bad-pairs](https://github.com/ymakwan1/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
 | [2465-shifting-letters-ii](https://github.com/ymakwan1/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2472-build-a-matrix-with-conditions](https://github.com/ymakwan1/Leetcode/tree/master/2472-build-a-matrix-with-conditions) |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/ymakwan1/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/ymakwan1/Leetcode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2502-sort-the-people](https://github.com/ymakwan1/Leetcode/tree/master/2502-sort-the-people) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/ymakwan1/Leetcode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
@@ -797,6 +798,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2434-design-a-number-container-system](https://github.com/ymakwan1/Leetcode/tree/master/2434-design-a-number-container-system) |
 | [2448-count-number-of-bad-pairs](https://github.com/ymakwan1/Leetcode/tree/master/2448-count-number-of-bad-pairs) |
 | [2461-amount-of-time-for-binary-tree-to-be-infected](https://github.com/ymakwan1/Leetcode/tree/master/2461-amount-of-time-for-binary-tree-to-be-infected) |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/ymakwan1/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2502-sort-the-people](https://github.com/ymakwan1/Leetcode/tree/master/2502-sort-the-people) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/ymakwan1/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2586-longest-square-streak-in-an-array](https://github.com/ymakwan1/Leetcode/tree/master/2586-longest-square-streak-in-an-array) |
@@ -876,6 +878,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1741-sort-array-by-increasing-frequency](https://github.com/ymakwan1/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [2164-two-best-non-overlapping-events](https://github.com/ymakwan1/Leetcode/tree/master/2164-two-best-non-overlapping-events) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/ymakwan1/Leetcode/tree/master/2179-most-beautiful-item-for-each-query) |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/ymakwan1/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/ymakwan1/Leetcode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2502-sort-the-people](https://github.com/ymakwan1/Leetcode/tree/master/2502-sort-the-people) |
 | [2554-minimum-total-distance-traveled](https://github.com/ymakwan1/Leetcode/tree/master/2554-minimum-total-distance-traveled) |
@@ -1151,6 +1154,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2300-construct-string-with-repeat-limit](https://github.com/ymakwan1/Leetcode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/ymakwan1/Leetcode/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
 | [2434-design-a-number-container-system](https://github.com/ymakwan1/Leetcode/tree/master/2434-design-a-number-container-system) |
+| [2473-max-sum-of-a-pair-with-equal-sum-of-digits](https://github.com/ymakwan1/Leetcode/tree/master/2473-max-sum-of-a-pair-with-equal-sum-of-digits) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/ymakwan1/Leetcode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/ymakwan1/Leetcode/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/ymakwan1/Leetcode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
