@@ -1,9 +1,13 @@
-<h2><a href="https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree">Find Elements in a Contaminated Binary Tree</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given a binary tree with the following rules:</p>
+<h2><a href="https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree">1387. Find Elements in a Contaminated Binary Tree</a></h2><h3>Medium</h3><hr><p>Given a binary tree with the following rules:</p>
 
 <ol>
 	<li><code>root.val == 0</code></li>
-	<li>If <code>treeNode.val == x</code> and <code>treeNode.left != null</code>, then <code>treeNode.left.val == 2 * x + 1</code></li>
-	<li>If <code>treeNode.val == x</code> and <code>treeNode.right != null</code>, then <code>treeNode.right.val == 2 * x + 2</code></li>
+	<li>For any <code>treeNode</code>:
+	<ol type="a">
+		<li>If <code>treeNode.val</code> has a value <code>x</code> and <code>treeNode.left != null</code>, then <code>treeNode.left.val == 2 * x + 1</code></li>
+		<li>If <code>treeNode.val</code> has a value <code>x</code> and <code>treeNode.right != null</code>, then <code>treeNode.right.val == 2 * x + 2</code></li>
+	</ol>
+	</li>
 </ol>
 
 <p>Now the binary tree is contaminated, which means all <code>treeNode.val</code> have been changed to <code>-1</code>.</p>
