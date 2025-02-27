@@ -1,62 +1,103 @@
-import java.util.*;
+class DS {
+    public int[] parent;
+    public int[] size;
+
+    public DS(int n) {
+        parent = new int[n];
+        size = new int[n];
+
+        for (int i = 0; i < n; i++) {
+            parent[i] = i;
+            size[i] = 1;
+        }
+    }
+
+    public int find(int u) {
+        if (u == parent[u]) {
+            return u;
+        }
+        return parent[u] = find(parent[u]);
+    }
+
+    public void unionBySize(int x, int y) {
+        int rootX = find(x);
+        int rootY = find(y);
+
+        if (rootX != rootY) {
+            if (size[rootX] < size[rootY]) {
+                parent[rootX] = rootY;
+                size[rootY] += size[rootX];
+            } else {
+                parent[rootY] = rootX;
+                size[rootX] += size[rootY];
+            }
+        }
+    }
+}
 
 class Solution {
     public int largestIsland(int[][] grid) {
         int n = grid.length;
-        Map<Integer, Integer> islandSize = new HashMap<>();
-        int islandId = 2; // Start from 2 to differentiate from 1s
-        int maxIsland = 0;
+        DS ds = new DS(n * n); 
 
-        // Step 1: Find all islands and store their sizes
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                if (grid[i][j] == 1) {
-                    int size = dfs(grid, i, j, islandId);
-                    islandSize.put(islandId, size);
-                    maxIsland = Math.max(maxIsland, size);
-                    islandId++;
+        for (int row = 0; row < n; row++) {
+            for (int col = 0; col < n; col++) {
+                if (grid[row][col] == 0) {
+                    continue;
+                }
+                int[] dr = new int[]{-1, 0, 1, 0};
+                int[] dc = new int[]{0, -1, 0, 1};
+
+                for (int ind = 0; ind < 4; ind++) {
+                    int newr = row + dr[ind];
+                    int newc = col + dc[ind];
+
+                    if (isValid(newr, newc, n) && grid[newr][newc] == 1) {
+                        int nodeNo = row * n + col;
+                        int adjNodeNo = newr * n + newc;
+                        ds.unionBySize(nodeNo, adjNodeNo);
+                    }
                 }
             }
         }
 
-        // Step 2: Check all 0s to see the max island we can get by flipping
-        int[] directions = {-1, 0, 1, 0, -1};
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                if (grid[i][j] == 0) {
-                    Set<Integer> uniqueIslands = new HashSet<>();
-                    for (int d = 0; d < 4; d++) {
-                        int ni = i + directions[d], nj = j + directions[d + 1];
-                        if (ni >= 0 && nj >= 0 && ni < n && nj < n && grid[ni][nj] > 1) {
-                            uniqueIslands.add(grid[ni][nj]);
-                        }
-                    }
-
-                    int newSize = 1; // Start with the flipped cell
-                    for (int id : uniqueIslands) {
-                        newSize += islandSize.get(id);
-                    }
-                    maxIsland = Math.max(maxIsland, newSize);
+        int max = 0;
+        for (int row = 0; row < n; row++) {
+            for (int col = 0; col < n; col++) {
+                if (grid[row][col] == 1) {
+                    continue; 
                 }
+                int[] dr = new int[]{-1, 0, 1, 0};
+                int[] dc = new int[]{0, -1, 0, 1};
+                HashSet<Integer> components = new HashSet<>();
+
+                //Check all adjacent cells.
+                for (int ind = 0; ind < 4; ind++) {
+                    int newr = row + dr[ind];
+                    int newc = col + dc[ind];
+
+                    if (isValid(newr, newc, n) && grid[newr][newc] == 1) {
+                        components.add(ds.find(newr * n + newc));
+                    }
+                }
+
+                int totalSize = 1;
+                for (Integer p : components) {
+                    totalSize += ds.size[p];
+                }
+
+                max = Math.max(max, totalSize);
             }
         }
 
-        return maxIsland;
+        for (int cellNo = 0; cellNo < n * n; cellNo++) {
+            max = Math.max(max, ds.size[ds.find(cellNo)]);
+        }
+
+        return max;
     }
 
-    private int dfs(int[][] grid, int i, int j, int islandId) {
-        if (i < 0 || j < 0 || i >= grid.length || j >= grid[0].length || grid[i][j] != 1) {
-            return 0;
-        }
-
-        grid[i][j] = islandId; // Mark the cell with the island ID
-        int size = 1;
-
-        int[] directions = {-1, 0, 1, 0, -1};
-        for (int d = 0; d < 4; d++) {
-            size += dfs(grid, i + directions[d], j + directions[d + 1], islandId);
-        }
-
-        return size;
+    public boolean isValid(int newr, int newc, int n) {
+        return newr >= 0 && newr < n && newc >= 0 && newc < n;
     }
 }
