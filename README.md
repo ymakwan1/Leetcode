@@ -440,6 +440,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0515-find-largest-value-in-each-tree-row](https://github.com/ymakwan1/Leetcode/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0547-number-of-provinces](https://github.com/ymakwan1/Leetcode/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/ymakwan1/Leetcode/tree/master/0684-redundant-connection) |
+| [0721-accounts-merge](https://github.com/ymakwan1/Leetcode/tree/master/0721-accounts-merge) |
 | [0744-network-delay-time](https://github.com/ymakwan1/Leetcode/tree/master/0744-network-delay-time) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/ymakwan1/Leetcode/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0801-is-graph-bipartite](https://github.com/ymakwan1/Leetcode/tree/master/0801-is-graph-bipartite) |
@@ -485,6 +486,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0542-01-matrix](https://github.com/ymakwan1/Leetcode/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/ymakwan1/Leetcode/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/ymakwan1/Leetcode/tree/master/0684-redundant-connection) |
+| [0721-accounts-merge](https://github.com/ymakwan1/Leetcode/tree/master/0721-accounts-merge) |
 | [0744-network-delay-time](https://github.com/ymakwan1/Leetcode/tree/master/0744-network-delay-time) |
 | [0787-sliding-puzzle](https://github.com/ymakwan1/Leetcode/tree/master/0787-sliding-puzzle) |
 | [0801-is-graph-bipartite](https://github.com/ymakwan1/Leetcode/tree/master/0801-is-graph-bipartite) |
@@ -616,6 +618,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/ymakwan1/Leetcode/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/ymakwan1/Leetcode/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/ymakwan1/Leetcode/tree/master/0684-redundant-connection) |
+| [0721-accounts-merge](https://github.com/ymakwan1/Leetcode/tree/master/0721-accounts-merge) |
 | [0801-is-graph-bipartite](https://github.com/ymakwan1/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0854-making-a-large-island](https://github.com/ymakwan1/Leetcode/tree/master/0854-making-a-large-island) |
 | [0984-most-stones-removed-with-same-row-or-column](https://github.com/ymakwan1/Leetcode/tree/master/0984-most-stones-removed-with-same-row-or-column) |
@@ -658,6 +661,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/ymakwan1/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/ymakwan1/Leetcode/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/ymakwan1/Leetcode/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [0721-accounts-merge](https://github.com/ymakwan1/Leetcode/tree/master/0721-accounts-merge) |
 | [0735-asteroid-collision](https://github.com/ymakwan1/Leetcode/tree/master/0735-asteroid-collision) |
 | [0780-max-chunks-to-make-sorted](https://github.com/ymakwan1/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0787-sliding-puzzle](https://github.com/ymakwan1/Leetcode/tree/master/0787-sliding-puzzle) |
@@ -792,6 +796,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0350-intersection-of-two-arrays-ii](https://github.com/ymakwan1/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0496-next-greater-element-i](https://github.com/ymakwan1/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/ymakwan1/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0721-accounts-merge](https://github.com/ymakwan1/Leetcode/tree/master/0721-accounts-merge) |
 | [0726-number-of-atoms](https://github.com/ymakwan1/Leetcode/tree/master/0726-number-of-atoms) |
 | [0870-magic-squares-in-grid](https://github.com/ymakwan1/Leetcode/tree/master/0870-magic-squares-in-grid) |
 | [0906-walking-robot-simulation](https://github.com/ymakwan1/Leetcode/tree/master/0906-walking-robot-simulation) |
@@ -887,6 +892,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0539-minimum-time-difference](https://github.com/ymakwan1/Leetcode/tree/master/0539-minimum-time-difference) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/ymakwan1/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/ymakwan1/Leetcode/tree/master/0719-find-k-th-smallest-pair-distance) |
+| [0721-accounts-merge](https://github.com/ymakwan1/Leetcode/tree/master/0721-accounts-merge) |
 | [0726-number-of-atoms](https://github.com/ymakwan1/Leetcode/tree/master/0726-number-of-atoms) |
 | [0780-max-chunks-to-make-sorted](https://github.com/ymakwan1/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0948-sort-an-array](https://github.com/ymakwan1/Leetcode/tree/master/0948-sort-an-array) |
@@ -1058,6 +1064,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0592-fraction-addition-and-subtraction](https://github.com/ymakwan1/Leetcode/tree/master/0592-fraction-addition-and-subtraction) |
 | [0647-palindromic-substrings](https://github.com/ymakwan1/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0664-strange-printer](https://github.com/ymakwan1/Leetcode/tree/master/0664-strange-printer) |
+| [0721-accounts-merge](https://github.com/ymakwan1/Leetcode/tree/master/0721-accounts-merge) |
 | [0726-number-of-atoms](https://github.com/ymakwan1/Leetcode/tree/master/0726-number-of-atoms) |
 | [0878-shifting-letters](https://github.com/ymakwan1/Leetcode/tree/master/0878-shifting-letters) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/ymakwan1/Leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
