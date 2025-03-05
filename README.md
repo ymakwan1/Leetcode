@@ -652,6 +652,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0189-rotate-array](https://github.com/ymakwan1/Leetcode/tree/master/0189-rotate-array) |
 | [0216-combination-sum-iii](https://github.com/ymakwan1/Leetcode/tree/master/0216-combination-sum-iii) |
 | [0239-sliding-window-maximum](https://github.com/ymakwan1/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [0268-missing-number](https://github.com/ymakwan1/Leetcode/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/ymakwan1/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0407-trapping-rain-water-ii](https://github.com/ymakwan1/Leetcode/tree/master/0407-trapping-rain-water-ii) |
 | [0494-target-sum](https://github.com/ymakwan1/Leetcode/tree/master/0494-target-sum) |
@@ -795,6 +796,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0127-word-ladder](https://github.com/ymakwan1/Leetcode/tree/master/0127-word-ladder) |
 | [0169-majority-element](https://github.com/ymakwan1/Leetcode/tree/master/0169-majority-element) |
 | [0264-ugly-number-ii](https://github.com/ymakwan1/Leetcode/tree/master/0264-ugly-number-ii) |
+| [0268-missing-number](https://github.com/ymakwan1/Leetcode/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/ymakwan1/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0496-next-greater-element-i](https://github.com/ymakwan1/Leetcode/tree/master/0496-next-greater-element-i) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/ymakwan1/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -866,6 +868,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/ymakwan1/Leetcode/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/ymakwan1/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/ymakwan1/Leetcode/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/ymakwan1/Leetcode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
@@ -892,6 +895,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0075-sort-colors](https://github.com/ymakwan1/Leetcode/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/ymakwan1/Leetcode/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/ymakwan1/Leetcode/tree/master/0179-largest-number) |
+| [0268-missing-number](https://github.com/ymakwan1/Leetcode/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/ymakwan1/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0539-minimum-time-difference](https://github.com/ymakwan1/Leetcode/tree/master/0539-minimum-time-difference) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/ymakwan1/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -1023,6 +1027,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0189-rotate-array](https://github.com/ymakwan1/Leetcode/tree/master/0189-rotate-array) |
 | [0241-different-ways-to-add-parentheses](https://github.com/ymakwan1/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/ymakwan1/Leetcode/tree/master/0264-ugly-number-ii) |
+| [0268-missing-number](https://github.com/ymakwan1/Leetcode/tree/master/0268-missing-number) |
 | [0273-integer-to-english-words](https://github.com/ymakwan1/Leetcode/tree/master/0273-integer-to-english-words) |
 | [0539-minimum-time-difference](https://github.com/ymakwan1/Leetcode/tree/master/0539-minimum-time-difference) |
 | [0564-find-the-closest-palindrome](https://github.com/ymakwan1/Leetcode/tree/master/0564-find-the-closest-palindrome) |
@@ -1357,6 +1362,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0090-subsets-ii](https://github.com/ymakwan1/Leetcode/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/ymakwan1/Leetcode/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/ymakwan1/Leetcode/tree/master/0137-single-number-ii) |
+| [0268-missing-number](https://github.com/ymakwan1/Leetcode/tree/master/0268-missing-number) |
 | [0476-number-complement](https://github.com/ymakwan1/Leetcode/tree/master/0476-number-complement) |
 | [1435-xor-queries-of-a-subarray](https://github.com/ymakwan1/Leetcode/tree/master/1435-xor-queries-of-a-subarray) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/ymakwan1/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
