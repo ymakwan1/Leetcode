@@ -645,6 +645,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0084-largest-rectangle-in-histogram](https://github.com/ymakwan1/Leetcode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/ymakwan1/Leetcode/tree/master/0085-maximal-rectangle) |
 | [0090-subsets-ii](https://github.com/ymakwan1/Leetcode/tree/master/0090-subsets-ii) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/ymakwan1/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0130-surrounded-regions](https://github.com/ymakwan1/Leetcode/tree/master/0130-surrounded-regions) |
 | [0136-single-number](https://github.com/ymakwan1/Leetcode/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/ymakwan1/Leetcode/tree/master/0137-single-number-ii) |
@@ -1240,6 +1241,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/ymakwan1/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0053-maximum-subarray](https://github.com/ymakwan1/Leetcode/tree/master/0053-maximum-subarray) |
 | [0085-maximal-rectangle](https://github.com/ymakwan1/Leetcode/tree/master/0085-maximal-rectangle) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/ymakwan1/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0241-different-ways-to-add-parentheses](https://github.com/ymakwan1/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0264-ugly-number-ii](https://github.com/ymakwan1/Leetcode/tree/master/0264-ugly-number-ii) |
 | [0494-target-sum](https://github.com/ymakwan1/Leetcode/tree/master/0494-target-sum) |
