@@ -66,44 +66,44 @@ class Solution {
         // }
 
         //Optimal
-        // HashSet<Integer> set = new HashSet<>();
-        // for(int num : nums){
-        //     set.add(num);
-        // }
+        HashSet<Integer> set = new HashSet<>();
+        for(int num : nums){
+            set.add(num);
+        }
 
-        // for(Integer i : set){
-        //     if(!set.contains(i-1)){
-        //         int count = 1;
-        //         int x = i;
-        //         while(set.contains(x+1)){
-        //             x = x + 1;
-        //             count++;
-        //         }
-        //         seqCount = Math.max(seqCount, count);
+        for(Integer i : set){
+            if(!set.contains(i-1)){
+                int count = 1;
+                int x = i;
+                while(set.contains(x+1)){
+                    x = x + 1;
+                    count++;
+                }
+                seqCount = Math.max(seqCount, count);
+            }
+        }
+
+        return seqCount;
+
+        //UnionFind
+        // DS ds = new DS(n);
+        // if(n == 0){
+        //     return 0;
+        // }
+        // HashMap<Integer, Integer> map = new HashMap<>(); //Map values to indices
+        // for (int i = 0; i < n; i++) {
+        //     if (!map.containsKey(nums[i])) {
+        //         map.put(nums[i], i);
         //     }
         // }
 
-        // return seqCount;
+        // //Union adjacent elements
+        // for (int num : nums) {
+        //     if (map.containsKey(num - 1)) { //Check if num-1 exists
+        //         ds.unionBySize(map.get(num), map.get(num - 1));
+        //     }
+        // }
 
-        //UnionFind
-        DS ds = new DS(n);
-        if(n == 0){
-            return 0;
-        }
-        HashMap<Integer, Integer> map = new HashMap<>(); //Map values to indices
-        for (int i = 0; i < n; i++) {
-            if (!map.containsKey(nums[i])) {
-                map.put(nums[i], i);
-            }
-        }
-
-        //Union adjacent elements
-        for (int num : nums) {
-            if (map.containsKey(num - 1)) { //Check if num-1 exists
-                ds.unionBySize(map.get(num), map.get(num - 1));
-            }
-        }
-
-        return ds.maxSeq();
+        // return ds.maxSeq();
     }
 }
