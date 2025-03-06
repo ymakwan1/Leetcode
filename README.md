@@ -615,6 +615,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Union Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/ymakwan1/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/ymakwan1/Leetcode/tree/master/0130-surrounded-regions) |
 | [0547-number-of-provinces](https://github.com/ymakwan1/Leetcode/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/ymakwan1/Leetcode/tree/master/0684-redundant-connection) |
@@ -646,6 +647,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0085-maximal-rectangle](https://github.com/ymakwan1/Leetcode/tree/master/0085-maximal-rectangle) |
 | [0090-subsets-ii](https://github.com/ymakwan1/Leetcode/tree/master/0090-subsets-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ymakwan1/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0128-longest-consecutive-sequence](https://github.com/ymakwan1/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/ymakwan1/Leetcode/tree/master/0130-surrounded-regions) |
 | [0136-single-number](https://github.com/ymakwan1/Leetcode/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/ymakwan1/Leetcode/tree/master/0137-single-number-ii) |
@@ -797,6 +799,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/ymakwan1/Leetcode/tree/master/0001-two-sum) |
 | [0127-word-ladder](https://github.com/ymakwan1/Leetcode/tree/master/0127-word-ladder) |
+| [0128-longest-consecutive-sequence](https://github.com/ymakwan1/Leetcode/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/ymakwan1/Leetcode/tree/master/0169-majority-element) |
 | [0264-ugly-number-ii](https://github.com/ymakwan1/Leetcode/tree/master/0264-ugly-number-ii) |
 | [0268-missing-number](https://github.com/ymakwan1/Leetcode/tree/master/0268-missing-number) |
