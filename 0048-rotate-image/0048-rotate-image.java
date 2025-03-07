@@ -1,30 +1,36 @@
 class Solution {
     public void rotate(int[][] matrix) {
-        int rows = matrix.length;
-        int cols = matrix[0].length;
-        
-        for(int i=0; i < rows; i++){
-            for(int j= i+1;j<cols;j++){
-                if(i != j){
-                    int temp = matrix[i][j];
-                    matrix[i][j] = matrix[j][i];
-                    matrix[j][i] = temp;
-                }
+        int n = matrix.length;
+
+        //Brute
+        int[][] ans = new int[n][n];
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < n; j++){
+                ans[j][n -1 - i] = matrix[i][j];
             }
         }
-        
-        for(int r = 0; r < rows; r++){
-            int start = 0;
-            int end = matrix[r].length-1;
-            
-            while(start<=end){
-                int t = matrix[r][start];
-                matrix[r][start] = matrix[r][end];
-                matrix[r][end] = t;
-                
-                start++;
-                end--;
-            }
+        for (int i = 0; i < ans.length; i++) {
+            matrix[i] = Arrays.copyOf(ans[i], ans[i].length);
         }
+
+        // for(int row = 0; row < n; row++){
+        //     for(int col = row; col < n; col++){
+        //         if(row != col){
+        //             int temp = 0;
+        //             temp = matrix[row][col];
+        //             matrix[row][col] = matrix[col][row];
+        //             matrix[col][row] = temp;
+        //         }
+        //     }
+        // }
+
+        // for(int row = 0; row < n; row++){
+        //     for(int col = 0; col < n/2; col++){
+        //         int temp = 0;
+        //         temp = matrix[row][col];
+        //         matrix[row][col] = matrix[row][n-col-1];
+        //         matrix[row][n-col-1] = temp;
+        //     }
+        // }
     }
 }
