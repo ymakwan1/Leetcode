@@ -2,6 +2,17 @@ class Solution {
     public void rotate(int[][] matrix) {
         int n = matrix.length;
 
+        //Brute
+        // int[][] ans = new int[n][n];
+        // for(int i = 0; i < n; i++){
+        //     for(int j = 0; j < n; j++){
+        //         ans[j][n -1 - i] = matrix[i][j];
+        //     }
+        // }
+        // for (int i = 0; i < ans.length; i++) {
+        //     matrix[i] = Arrays.copyOf(ans[i], ans[i].length);
+        // }
+
         for(int row = 0; row < n; row++){
             for(int col = row; col < n; col++){
                 if(row != col){
