@@ -969,6 +969,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/ymakwan1/Leetcode/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0780-max-chunks-to-make-sorted](https://github.com/ymakwan1/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0890-lemonade-change](https://github.com/ymakwan1/Leetcode/tree/master/0890-lemonade-change) |
+| [1159-smallest-subsequence-of-distinct-characters](https://github.com/ymakwan1/Leetcode/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1502-construct-k-palindrome-strings](https://github.com/ymakwan1/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1616-minimum-difference-between-largest-and-smallest-value-in-three-moves](https://github.com/ymakwan1/Leetcode/tree/master/1616-minimum-difference-between-largest-and-smallest-value-in-three-moves) |
 | [1711-find-valid-matrix-given-row-and-column-sums](https://github.com/ymakwan1/Leetcode/tree/master/1711-find-valid-matrix-given-row-and-column-sums) |
@@ -1113,6 +1114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0878-shifting-letters](https://github.com/ymakwan1/Leetcode/tree/master/0878-shifting-letters) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/ymakwan1/Leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/ymakwan1/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [1159-smallest-subsequence-of-distinct-characters](https://github.com/ymakwan1/Leetcode/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1160-letter-tile-possibilities](https://github.com/ymakwan1/Leetcode/tree/master/1160-letter-tile-possibilities) |
 | [1197-parsing-a-boolean-expression](https://github.com/ymakwan1/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/ymakwan1/Leetcode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
@@ -1172,6 +1174,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0780-max-chunks-to-make-sorted](https://github.com/ymakwan1/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0937-online-stock-span](https://github.com/ymakwan1/Leetcode/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/ymakwan1/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
+| [1159-smallest-subsequence-of-distinct-characters](https://github.com/ymakwan1/Leetcode/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1197-parsing-a-boolean-expression](https://github.com/ymakwan1/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/ymakwan1/Leetcode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/ymakwan1/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
@@ -1458,6 +1461,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0780-max-chunks-to-make-sorted](https://github.com/ymakwan1/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0937-online-stock-span](https://github.com/ymakwan1/Leetcode/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/ymakwan1/Leetcode/tree/master/0943-sum-of-subarray-minimums) |
+| [1159-smallest-subsequence-of-distinct-characters](https://github.com/ymakwan1/Leetcode/tree/master/1159-smallest-subsequence-of-distinct-characters) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/ymakwan1/Leetcode/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/ymakwan1/Leetcode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [2227-sum-of-subarray-ranges](https://github.com/ymakwan1/Leetcode/tree/master/2227-sum-of-subarray-ranges) |
