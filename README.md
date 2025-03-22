@@ -833,6 +833,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1160-letter-tile-possibilities](https://github.com/ymakwan1/Leetcode/tree/master/1160-letter-tile-possibilities) |
 | [1207-delete-nodes-and-return-forest](https://github.com/ymakwan1/Leetcode/tree/master/1207-delete-nodes-and-return-forest) |
 | [1256-rank-transform-of-an-array](https://github.com/ymakwan1/Leetcode/tree/master/1256-rank-transform-of-an-array) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/ymakwan1/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1468-check-if-n-and-its-double-exist](https://github.com/ymakwan1/Leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1502-construct-k-palindrome-strings](https://github.com/ymakwan1/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/ymakwan1/Leetcode/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
@@ -1123,6 +1124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1197-parsing-a-boolean-expression](https://github.com/ymakwan1/Leetcode/tree/master/1197-parsing-a-boolean-expression) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/ymakwan1/Leetcode/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/ymakwan1/Leetcode/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/ymakwan1/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1502-construct-k-palindrome-strings](https://github.com/ymakwan1/Leetcode/tree/master/1502-construct-k-palindrome-strings) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/ymakwan1/Leetcode/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1524-string-matching-in-an-array](https://github.com/ymakwan1/Leetcode/tree/master/1524-string-matching-in-an-array) |
@@ -1339,6 +1341,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0713-subarray-product-less-than-k](https://github.com/ymakwan1/Leetcode/tree/master/0713-subarray-product-less-than-k) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/ymakwan1/Leetcode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1046-max-consecutive-ones-iii](https://github.com/ymakwan1/Leetcode/tree/master/1046-max-consecutive-ones-iii) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/ymakwan1/Leetcode/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/ymakwan1/Leetcode/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1755-defuse-the-bomb](https://github.com/ymakwan1/Leetcode/tree/master/1755-defuse-the-bomb) |
 | [2255-minimum-swaps-to-group-all-1s-together-ii](https://github.com/ymakwan1/Leetcode/tree/master/2255-minimum-swaps-to-group-all-1s-together-ii) |
