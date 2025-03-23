@@ -5,15 +5,16 @@ class Solution {
         Arrays.sort(g);
         Arrays.sort(s);
 
-        int l = 0, r = 0;
+        int l = 0, r = 0, count = 0;
 
         while(l < m && r < n){
             if(s[l] >= g[r]){
+                count++;
                 r++;
             }
             l++;
         }
 
-        return r;
+        return count;
     }
 }
