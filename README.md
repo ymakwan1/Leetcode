@@ -640,6 +640,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0039-combination-sum](https://github.com/ymakwan1/Leetcode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/ymakwan1/Leetcode/tree/master/0040-combination-sum-ii) |
 | [0042-trapping-rain-water](https://github.com/ymakwan1/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/ymakwan1/Leetcode/tree/master/0045-jump-game-ii) |
 | [0046-permutations](https://github.com/ymakwan1/Leetcode/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/ymakwan1/Leetcode/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/ymakwan1/Leetcode/tree/master/0053-maximum-subarray) |
@@ -976,6 +977,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/ymakwan1/Leetcode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/ymakwan1/Leetcode/tree/master/0055-jump-game) |
 | [0179-largest-number](https://github.com/ymakwan1/Leetcode/tree/master/0179-largest-number) |
 | [0316-remove-duplicate-letters](https://github.com/ymakwan1/Leetcode/tree/master/0316-remove-duplicate-letters) |
@@ -1297,6 +1299,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/ymakwan1/Leetcode/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/ymakwan1/Leetcode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/ymakwan1/Leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/ymakwan1/Leetcode/tree/master/0055-jump-game) |
 | [0085-maximal-rectangle](https://github.com/ymakwan1/Leetcode/tree/master/0085-maximal-rectangle) |
