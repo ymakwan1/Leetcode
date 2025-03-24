@@ -1,26 +1,13 @@
 class Solution {
-    static class Meeting{
-        int startTime, endTime;
-        Meeting(int startTimeIn, int endTimeIn){
-            startTime = startTimeIn;
-            endTime = endTimeIn;
-        }
-    }
     public int eraseOverlapIntervals(int[][] intervals) {
         int n = intervals.length;
-        
-        Meeting[] meeting = new Meeting[n];
-        for(int i = 0; i < n; i++){
-            meeting[i] = new Meeting(intervals[i][0], intervals[i][1]);
-        }
-        Arrays.sort(meeting, (a, b) -> a.endTime - b.endTime);
-
-        int count = 1, freeTime = meeting[0].endTime;
+        Arrays.sort(intervals, (a, b) -> Integer.compare(a[1], b[1]));
+        int count = 1, freeTime = intervals[0][1];
         
         for(int i = 1; i < n; i++){
-            if(meeting[i].startTime >= freeTime){
+            if(intervals[i][0] >= freeTime){
                 count++;
-                freeTime = meeting[i].endTime;
+                freeTime = intervals[i][1];
             }
         }
 
