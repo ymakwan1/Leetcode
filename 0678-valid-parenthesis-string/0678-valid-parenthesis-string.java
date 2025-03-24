@@ -1,28 +1,27 @@
 class Solution {
     public boolean checkValidString(String s) {
-        int low = 0;
-        int high = 0;
+        int min = 0, max = 0;
 
         for(char c : s.toCharArray()){
             if(c == '('){
-                low++;
-                high++;
-            } else if(c == ')'){
-                if(low > 0){
-                    low--;
-                }
-                high--;
-            } else{
-                if(low > 0){
-                    low--;
-                }
-                high++;
+                min++;
+                max++;
+            }else if(c == ')'){
+                min--;
+                max--;
+            }else{
+                min--;
+                max++;
             }
-            if(high < 0){
+
+            if(min < 0){
+                min = 0;
+            }
+            if(max < 0){
                 return false;
             }
         }
 
-        return low == 0;
+        return min == 0;
     }
 }
