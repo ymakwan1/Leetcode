@@ -1,10 +1,9 @@
 class Solution {
     static class Meeting{
-        int startTime, endTime, meetingId;
-        Meeting(int startTimeIn, int endTimeIn, int meetingIdIn){
+        int startTime, endTime;
+        Meeting(int startTimeIn, int endTimeIn){
             startTime = startTimeIn;
             endTime = endTimeIn;
-            meetingId = meetingIdIn;
         }
     }
     public int eraseOverlapIntervals(int[][] intervals) {
@@ -12,7 +11,7 @@ class Solution {
         
         Meeting[] meeting = new Meeting[n];
         for(int i = 0; i < n; i++){
-            meeting[i] = new Meeting(intervals[i][0], intervals[i][1], i+1);
+            meeting[i] = new Meeting(intervals[i][0], intervals[i][1]);
         }
         Arrays.sort(meeting, (a, b) -> a.endTime - b.endTime);
 
