@@ -46,13 +46,15 @@ class Solution {
 
         int current = 1, right = 1;
         candyCount = Math.max(1, left[n - 1]);
-        for (int i = n - 2; i >= 0; i--) {
-            if (ratings[i] > ratings[i + 1]) {
-                right++;
-            } else {
-                right = 1;
+        for(int i = n - 2; i >= 0; i--){
+            if(ratings[i] > ratings[i+1]){
+                current = right + 1;
+                
+            }else{
+                current = 1;
             }
-            candyCount += Math.max(left[i], right);
+            right = current;
+            candyCount += Math.max(left[i], current);
         }
 
         return candyCount;
