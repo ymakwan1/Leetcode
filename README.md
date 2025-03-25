@@ -858,6 +858,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/ymakwan1/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2107-find-unique-binary-string](https://github.com/ymakwan1/Leetcode/tree/master/2107-find-unique-binary-string) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/ymakwan1/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2186-count-vowel-substrings-of-a-string](https://github.com/ymakwan1/Leetcode/tree/master/2186-count-vowel-substrings-of-a-string) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/ymakwan1/Leetcode/tree/master/2190-count-common-words-with-one-occurrence) |
 | [2300-construct-string-with-repeat-limit](https://github.com/ymakwan1/Leetcode/tree/master/2300-construct-string-with-repeat-limit) |
 | [2306-create-binary-tree-from-descriptions](https://github.com/ymakwan1/Leetcode/tree/master/2306-create-binary-tree-from-descriptions) |
@@ -1166,6 +1167,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/ymakwan1/Leetcode/tree/master/2076-sum-of-digits-of-string-after-convert) |
 | [2107-find-unique-binary-string](https://github.com/ymakwan1/Leetcode/tree/master/2107-find-unique-binary-string) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/ymakwan1/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
+| [2186-count-vowel-substrings-of-a-string](https://github.com/ymakwan1/Leetcode/tree/master/2186-count-vowel-substrings-of-a-string) |
 | [2190-count-common-words-with-one-occurrence](https://github.com/ymakwan1/Leetcode/tree/master/2190-count-common-words-with-one-occurrence) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/ymakwan1/Leetcode/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/ymakwan1/Leetcode/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
