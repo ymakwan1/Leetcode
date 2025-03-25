@@ -1,36 +1,21 @@
 class LRUCache {
-    private final int capacity;
-    private final Map<Integer, Integer> cache;
-    private final Deque<Integer> accessOrder;
 
+    private LinkedHashMap<Integer, Integer> cache;
+    
     public LRUCache(int capacity) {
-        this.capacity = capacity;
-        this.cache = new HashMap<>();
-        this.accessOrder = new ArrayDeque<>();
+        this.cache = new LinkedHashMap<>(capacity, 0.75f, true) {
+            protected boolean removeEldestEntry(Map.Entry<Integer, Integer> eldest) {
+                return size() > capacity;
+            }
+        };
     }
     
     public int get(int key) {
-        if(!cache.containsKey(key)){
-            return -1;
-        }
-        
-        //Move key to most recently used position
-        accessOrder.remove(key);
-        accessOrder.addLast(key);
-
-        return cache.get(key);
+        return cache.getOrDefault(key, -1);
     }
     
     public void put(int key, int value) {
-        if(cache.containsKey(key)){
-            accessOrder.remove(key);
-        }else if(cache.size() == capacity){
-            //Remove LRU elem from front of queue
-            int lruKey = accessOrder.pollFirst();
-            cache.remove(lruKey);
-        }
         cache.put(key, value);
-        accessOrder.addLast(key);
     }
 }
 
