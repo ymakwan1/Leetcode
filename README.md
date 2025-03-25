@@ -822,6 +822,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0076-minimum-window-substring](https://github.com/ymakwan1/Leetcode/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/ymakwan1/Leetcode/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/ymakwan1/Leetcode/tree/master/0128-longest-consecutive-sequence) |
+| [0146-lru-cache](https://github.com/ymakwan1/Leetcode/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/ymakwan1/Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/ymakwan1/Leetcode/tree/master/0229-majority-element-ii) |
 | [0264-ugly-number-ii](https://github.com/ymakwan1/Leetcode/tree/master/0264-ugly-number-ii) |
@@ -1041,6 +1042,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Linked List
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/ymakwan1/Leetcode/tree/master/0146-lru-cache) |
 | [0725-split-linked-list-in-parts](https://github.com/ymakwan1/Leetcode/tree/master/0725-split-linked-list-in-parts) |
 | [1484-linked-list-in-binary-tree](https://github.com/ymakwan1/Leetcode/tree/master/1484-linked-list-in-binary-tree) |
 | [1905-design-authentication-manager](https://github.com/ymakwan1/Leetcode/tree/master/1905-design-authentication-manager) |
@@ -1388,6 +1390,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/ymakwan1/Leetcode/tree/master/0146-lru-cache) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/ymakwan1/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/ymakwan1/Leetcode/tree/master/0937-online-stock-span) |
 | [1477-product-of-the-last-k-numbers](https://github.com/ymakwan1/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
@@ -1548,5 +1551,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Doubly-Linked List
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/ymakwan1/Leetcode/tree/master/0146-lru-cache) |
 | [1905-design-authentication-manager](https://github.com/ymakwan1/Leetcode/tree/master/1905-design-authentication-manager) |
 <!---LeetCode Topics End-->
