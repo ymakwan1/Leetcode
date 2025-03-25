@@ -12,21 +12,40 @@ class Solution {
         // }
 
         //Better
-        Set<Character> vowels = new HashSet<>(Arrays.asList('a', 'e', 'i', 'o', 'u'));
-        for(int i = 0; i < n; i++){
-            Set<Character> present = new HashSet<>();
-            for(int j = i; j < n; j++){
+        // Set<Character> vowels = new HashSet<>(Arrays.asList('a', 'e', 'i', 'o', 'u'));
+        // for(int i = 0; i < n; i++){
+        //     Set<Character> present = new HashSet<>();
+        //     for(int j = i; j < n; j++){
+        //         char c = word.charAt(j);
+        //         if(!vowels.contains(c)){
+        //             break;
+        //         }
+        //         present.add(c);
+        //         if(present.size() == 5){
+        //             count++;
+        //         }
+        //     }
+        // }
+
+        // Optimal
+        for (int i = 0; i < n; i++) {
+            if (!isVowel(word.charAt(i))) continue;
+            int[] freq = new int[5];
+            int distinct = 0;
+            for (int j = i; j < n; j++) {
                 char c = word.charAt(j);
-                if(!vowels.contains(c)){
-                    break;
-                }
-                present.add(c);
-                if(present.size() == 5){
-                    count++;
-                }
+                if (!isVowel(c)) break;
+
+                if (freq[getIndex(c)] == 0) distinct++;
+                freq[getIndex(c)]++;
+
+                if (distinct == 5) count++;
             }
         }
+
         return count;
+
+        
     }
 
     private boolean isValid(String s){
@@ -40,5 +59,13 @@ class Solution {
             present.add(c);
         }
         return present.size() == 5;
+    }
+
+    private boolean isVowel(char c) {
+        return "aeiou".indexOf(c) != -1;
+    }
+
+    private int getIndex(char c) {
+        return "aeiou".indexOf(c);
     }
 }
