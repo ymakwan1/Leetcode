@@ -29,17 +29,25 @@ class Solution {
 
         // Optimal
         for (int i = 0; i < n; i++) {
-            if (!isVowel(word.charAt(i))) continue;
+            if (!isVowel(word.charAt(i))){
+                continue;
+            }
             int[] freq = new int[5];
             int distinct = 0;
             for (int j = i; j < n; j++) {
                 char c = word.charAt(j);
-                if (!isVowel(c)) break;
+                if (!isVowel(c)){ 
+                    break;
+                }
+                if (freq[getIndex(c)] == 0){
+                    distinct++;
+                }
 
-                if (freq[getIndex(c)] == 0) distinct++;
                 freq[getIndex(c)]++;
 
-                if (distinct == 5) count++;
+                if (distinct == 5){
+                    count++;
+                }
             }
         }
 
