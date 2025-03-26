@@ -15,6 +15,7 @@
  */
 class Solution {
     public int maxDepth(TreeNode root) {
+        // Recursion
         // if(root == null){
         //     return 0;
         // }
@@ -23,7 +24,8 @@ class Solution {
         // int rhs = maxDepth(root.right);
         
         // return Math.max(lhs, rhs) + 1;
-        //List<List<Integer>> listOfLists = new ArrayList<>();
+
+        // Level Order
         Queue<TreeNode> queue = new LinkedList<TreeNode>();
         int level = 0;
         if(root == null){
@@ -34,7 +36,6 @@ class Solution {
         
         while(!queue.isEmpty()){
             int levelSize = queue.size();
-            // List<Integer> currentLevel = new ArrayList<>();
 
             for(int i = 0; i < levelSize; i++){
                 TreeNode temp = queue.poll();
