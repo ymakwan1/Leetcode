@@ -39,7 +39,6 @@ class Solution {
 
             for(int i = 0; i < levelSize; i++){
                 TreeNode temp = queue.poll();
-                //currentLevel.add(temp.val);
                 if(temp.left != null){
                     queue.offer(temp.left);
                 }
@@ -48,7 +47,6 @@ class Solution {
                     queue.offer(temp.right);
                 }
             }
-            //listOfLists.add(currentLevel);
             level++;
         }
         return level;
