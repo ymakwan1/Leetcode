@@ -23,9 +23,9 @@ class Solution {
         // int rhs = maxDepth(root.right);
         
         // return Math.max(lhs, rhs) + 1;
-        List<List<Integer>> listOfLists = new ArrayList<>();
+        //List<List<Integer>> listOfLists = new ArrayList<>();
         Queue<TreeNode> queue = new LinkedList<TreeNode>();
-        
+        int level = 0;
         if(root == null){
             return 0;
         }
@@ -34,11 +34,11 @@ class Solution {
         
         while(!queue.isEmpty()){
             int levelSize = queue.size();
-            List<Integer> currentLevel = new ArrayList<>();
+            // List<Integer> currentLevel = new ArrayList<>();
 
             for(int i = 0; i < levelSize; i++){
                 TreeNode temp = queue.poll();
-                currentLevel.add(temp.val);
+                //currentLevel.add(temp.val);
                 if(temp.left != null){
                     queue.offer(temp.left);
                 }
@@ -47,8 +47,9 @@ class Solution {
                     queue.offer(temp.right);
                 }
             }
-            listOfLists.add(currentLevel);
+            //listOfLists.add(currentLevel);
+            level++;
         }
-        return (int)listOfLists.size();
+        return level;
     }
 }
