@@ -19,7 +19,7 @@ class Solution {
     }
 
     private TreeNode bstFromPreorder(int[] preorder, int bound, int[] index){
-        if(index[0] >= preorder.length || preorder[index[0]] > bound){
+        if(index[0] == preorder.length || preorder[index[0]] > bound){
             return null;
         }
 
