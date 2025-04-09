@@ -14,28 +14,19 @@ class Solution {
             return head;
         }
 
-        ListNode current = head;
-        ListNode oddList = new ListNode(-1);    
-        ListNode evenList = new ListNode(-1);
-        ListNode odd = oddList;
-        ListNode even = evenList;
-        boolean isOdd = true;
+        ListNode odd = head;
+        ListNode even = head.next;
+        ListNode evenHead = head.next;
 
-        while(current != null){
-            if(isOdd){
-                odd.next = current;
-                odd = odd.next;
-            }else{
-                even.next = current;
-                even = even.next;
-            }
-            current = current.next;
-            isOdd = !isOdd;
+        while(even != null && even.next != null){
+            odd.next = odd.next.next;
+            even.next = even.next.next;
+
+            odd = odd.next;
+            even = even.next;
         }
+        odd.next = evenHead;
 
-        odd.next = evenList.next;
-        even.next = null;
-
-        return oddList.next;
+        return head;
     }
 }
