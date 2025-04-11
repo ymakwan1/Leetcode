@@ -974,6 +974,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0189-rotate-array](https://github.com/ymakwan1/Leetcode/tree/master/0189-rotate-array) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/ymakwan1/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0455-assign-cookies](https://github.com/ymakwan1/Leetcode/tree/master/0455-assign-cookies) |
+| [0528-swapping-nodes-in-a-linked-list](https://github.com/ymakwan1/Leetcode/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [0647-palindromic-substrings](https://github.com/ymakwan1/Leetcode/tree/master/0647-palindromic-substrings) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ymakwan1/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0719-find-k-th-smallest-pair-distance](https://github.com/ymakwan1/Leetcode/tree/master/0719-find-k-th-smallest-pair-distance) |
@@ -1140,6 +1141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0019-remove-nth-node-from-end-of-list](https://github.com/ymakwan1/Leetcode/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0146-lru-cache](https://github.com/ymakwan1/Leetcode/tree/master/0146-lru-cache) |
 | [0328-odd-even-linked-list](https://github.com/ymakwan1/Leetcode/tree/master/0328-odd-even-linked-list) |
+| [0528-swapping-nodes-in-a-linked-list](https://github.com/ymakwan1/Leetcode/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [0725-split-linked-list-in-parts](https://github.com/ymakwan1/Leetcode/tree/master/0725-split-linked-list-in-parts) |
 | [1484-linked-list-in-binary-tree](https://github.com/ymakwan1/Leetcode/tree/master/1484-linked-list-in-binary-tree) |
 | [1905-design-authentication-manager](https://github.com/ymakwan1/Leetcode/tree/master/1905-design-authentication-manager) |
