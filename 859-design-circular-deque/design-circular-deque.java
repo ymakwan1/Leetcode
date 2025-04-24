@@ -1,57 +1,83 @@
 class MyCircularDeque {
-    LinkedList list;
-    int capacity;
+    private class Node{
+        int val;
+        Node prev, next;
+        Node(int valIn){
+            val = valIn;
+        }
+    }
+
+    private Node head, tail;
+    private int size, capacity;
+
     public MyCircularDeque(int k) {
-        list = new LinkedList<Integer>();
+        size = 0;
         capacity = k;
+
+        head = new Node(-1);
+        tail = new Node(-1);
+
+        head.next = tail;
+        tail.prev = head;
+    }
+
+    private void addAfter(Node prev, Node node){
+        Node next = prev.next;
+        prev.next = node;
+        node.prev = prev;
+        node.next = next;
+        next.prev = node;
+    }
+
+    private void remove(Node node){
+        node.prev.next = node.next;
+        node.next.prev = node.prev;
     }
     
     public boolean insertFront(int value) {
-        if(list.size() >= capacity){
-            return false;
-        }
-        list.addFirst(value);
+        if(isFull()) return false;
+        addAfter(head, new Node(value));
+        size++;
         return true;
     }
     
     public boolean insertLast(int value) {
-        if(list.size() >= capacity){
-            return false;
-        }
-        list.addLast(value);
+        if(isFull()) return false;
+        addAfter(tail.prev, new Node(value));
+        size++;
         return true;
     }
     
     public boolean deleteFront() {
-        if(list.isEmpty()){
+        if (isEmpty()) {
             return false;
         }
-        list.removeFirst();
+        remove(head.next);
+        size--;
         return true;
     }
     
     public boolean deleteLast() {
-        if(list.isEmpty()){
-            return false;
-        }
-        list.removeLast();
+        if(isEmpty()) return false;
+        remove(tail.prev);
+        size--;
         return true;
     }
     
     public int getFront() {
-        return list.isEmpty() ? -1 : (int)list.getFirst();
+        return head.next.val;
     }
     
     public int getRear() {
-        return list.isEmpty() ? -1 : (int) list.getLast();
+        return tail.prev.val;
     }
     
     public boolean isEmpty() {
-        return list.isEmpty();
+        return size == 0;
     }
     
     public boolean isFull() {
-        return list.size() == capacity;
+        return size == capacity;
     }
 }
 
