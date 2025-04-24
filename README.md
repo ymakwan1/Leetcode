@@ -766,6 +766,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0780-max-chunks-to-make-sorted](https://github.com/ymakwan1/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0787-sliding-puzzle](https://github.com/ymakwan1/Leetcode/tree/master/0787-sliding-puzzle) |
 | [0854-making-a-large-island](https://github.com/ymakwan1/Leetcode/tree/master/0854-making-a-large-island) |
+| [0859-design-circular-deque](https://github.com/ymakwan1/Leetcode/tree/master/0859-design-circular-deque) |
 | [0870-magic-squares-in-grid](https://github.com/ymakwan1/Leetcode/tree/master/0870-magic-squares-in-grid) |
 | [0878-shifting-letters](https://github.com/ymakwan1/Leetcode/tree/master/0878-shifting-letters) |
 | [0890-lemonade-change](https://github.com/ymakwan1/Leetcode/tree/master/0890-lemonade-change) |
@@ -1162,6 +1163,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0445-add-two-numbers-ii](https://github.com/ymakwan1/Leetcode/tree/master/0445-add-two-numbers-ii) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/ymakwan1/Leetcode/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [0725-split-linked-list-in-parts](https://github.com/ymakwan1/Leetcode/tree/master/0725-split-linked-list-in-parts) |
+| [0859-design-circular-deque](https://github.com/ymakwan1/Leetcode/tree/master/0859-design-circular-deque) |
 | [0908-middle-of-the-linked-list](https://github.com/ymakwan1/Leetcode/tree/master/0908-middle-of-the-linked-list) |
 | [1484-linked-list-in-binary-tree](https://github.com/ymakwan1/Leetcode/tree/master/1484-linked-list-in-binary-tree) |
 | [1905-design-authentication-manager](https://github.com/ymakwan1/Leetcode/tree/master/1905-design-authentication-manager) |
@@ -1249,6 +1251,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/ymakwan1/Leetcode/tree/master/0239-sliding-window-maximum) |
 | [0387-first-unique-character-in-a-string](https://github.com/ymakwan1/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
+| [0859-design-circular-deque](https://github.com/ymakwan1/Leetcode/tree/master/0859-design-circular-deque) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/ymakwan1/Leetcode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/ymakwan1/Leetcode/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2868-continuous-subarrays](https://github.com/ymakwan1/Leetcode/tree/master/2868-continuous-subarrays) |
@@ -1538,6 +1541,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0146-lru-cache](https://github.com/ymakwan1/Leetcode/tree/master/0146-lru-cache) |
 | [0173-binary-search-tree-iterator](https://github.com/ymakwan1/Leetcode/tree/master/0173-binary-search-tree-iterator) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/ymakwan1/Leetcode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0859-design-circular-deque](https://github.com/ymakwan1/Leetcode/tree/master/0859-design-circular-deque) |
 | [0937-online-stock-span](https://github.com/ymakwan1/Leetcode/tree/master/0937-online-stock-span) |
 | [1477-product-of-the-last-k-numbers](https://github.com/ymakwan1/Leetcode/tree/master/1477-product-of-the-last-k-numbers) |
 | [1905-design-authentication-manager](https://github.com/ymakwan1/Leetcode/tree/master/1905-design-authentication-manager) |
