@@ -1,17 +1,19 @@
 class Solution {
     public boolean checkIfPangram(String sentence) {
-        int[] map = new int[26];
+        int zeroCount = 26;
+        boolean[] seen = new boolean[26];
 
-        for(char s : sentence.toCharArray()){
-            map[s - 'a'] = map[s-'a'] + 1;
-        }
+        for (char c : sentence.toCharArray()) {
+            if(!seen[c - 'a']){
+                seen[c - 'a'] = true;
+                zeroCount--;
 
-        for(int i = 0; i < map.length; i++){
-            if(map[i] == 0){
-                return false;
+                if (zeroCount == 0) {
+                    return true;
+                }
             }
         }
 
-        return true;
+        return false;
     }
 }
