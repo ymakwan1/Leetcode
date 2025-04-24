@@ -941,6 +941,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1741-sort-array-by-increasing-frequency](https://github.com/ymakwan1/Leetcode/tree/master/1741-sort-array-by-increasing-frequency) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/ymakwan1/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1905-design-authentication-manager](https://github.com/ymakwan1/Leetcode/tree/master/1905-design-authentication-manager) |
+| [1960-check-if-the-sentence-is-pangram](https://github.com/ymakwan1/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/ymakwan1/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2107-find-unique-binary-string](https://github.com/ymakwan1/Leetcode/tree/master/2107-find-unique-binary-string) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/ymakwan1/Leetcode/tree/master/2163-kth-distinct-string-in-an-array) |
@@ -1291,6 +1292,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1756-minimum-deletions-to-make-string-balanced](https://github.com/ymakwan1/Leetcode/tree/master/1756-minimum-deletions-to-make-string-balanced) |
 | [1786-count-the-number-of-consistent-strings](https://github.com/ymakwan1/Leetcode/tree/master/1786-count-the-number-of-consistent-strings) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/ymakwan1/Leetcode/tree/master/1818-maximum-score-from-removing-substrings) |
+| [1960-check-if-the-sentence-is-pangram](https://github.com/ymakwan1/Leetcode/tree/master/1960-check-if-the-sentence-is-pangram) |
 | [2021-remove-all-occurrences-of-a-substring](https://github.com/ymakwan1/Leetcode/tree/master/2021-remove-all-occurrences-of-a-substring) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/ymakwan1/Leetcode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2076-sum-of-digits-of-string-after-convert](https://github.com/ymakwan1/Leetcode/tree/master/2076-sum-of-digits-of-string-after-convert) |
