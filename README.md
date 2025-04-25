@@ -728,6 +728,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0054-spiral-matrix](https://github.com/ymakwan1/Leetcode/tree/master/0054-spiral-matrix) |
 | [0055-jump-game](https://github.com/ymakwan1/Leetcode/tree/master/0055-jump-game) |
 | [0057-insert-interval](https://github.com/ymakwan1/Leetcode/tree/master/0057-insert-interval) |
+| [0064-minimum-path-sum](https://github.com/ymakwan1/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/ymakwan1/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/ymakwan1/Leetcode/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/ymakwan1/Leetcode/tree/master/0078-subsets) |
@@ -1390,6 +1391,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0048-rotate-image](https://github.com/ymakwan1/Leetcode/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/ymakwan1/Leetcode/tree/master/0054-spiral-matrix) |
+| [0064-minimum-path-sum](https://github.com/ymakwan1/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/ymakwan1/Leetcode/tree/master/0073-set-matrix-zeroes) |
 | [0085-maximal-rectangle](https://github.com/ymakwan1/Leetcode/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/ymakwan1/Leetcode/tree/master/0130-surrounded-regions) |
@@ -1476,6 +1478,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0045-jump-game-ii](https://github.com/ymakwan1/Leetcode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/ymakwan1/Leetcode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/ymakwan1/Leetcode/tree/master/0055-jump-game) |
+| [0064-minimum-path-sum](https://github.com/ymakwan1/Leetcode/tree/master/0064-minimum-path-sum) |
 | [0085-maximal-rectangle](https://github.com/ymakwan1/Leetcode/tree/master/0085-maximal-rectangle) |
 | [0091-decode-ways](https://github.com/ymakwan1/Leetcode/tree/master/0091-decode-ways) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/ymakwan1/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
