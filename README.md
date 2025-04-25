@@ -1006,6 +1006,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/ymakwan1/Leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0033-search-in-rotated-sorted-array](https://github.com/ymakwan1/Leetcode/tree/master/0033-search-in-rotated-sorted-array) |
+| [0069-sqrtx](https://github.com/ymakwan1/Leetcode/tree/master/0069-sqrtx) |
 | [0222-count-complete-tree-nodes](https://github.com/ymakwan1/Leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/ymakwan1/Leetcode/tree/master/0268-missing-number) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/ymakwan1/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -1207,6 +1208,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/ymakwan1/Leetcode/tree/master/0002-add-two-numbers) |
 | [0029-divide-two-integers](https://github.com/ymakwan1/Leetcode/tree/master/0029-divide-two-integers) |
 | [0048-rotate-image](https://github.com/ymakwan1/Leetcode/tree/master/0048-rotate-image) |
+| [0069-sqrtx](https://github.com/ymakwan1/Leetcode/tree/master/0069-sqrtx) |
 | [0166-fraction-to-recurring-decimal](https://github.com/ymakwan1/Leetcode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0189-rotate-array](https://github.com/ymakwan1/Leetcode/tree/master/0189-rotate-array) |
 | [0241-different-ways-to-add-parentheses](https://github.com/ymakwan1/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
