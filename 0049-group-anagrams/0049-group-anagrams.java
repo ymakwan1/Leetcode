@@ -1,27 +1,16 @@
 class Solution {
     public List<List<String>> groupAnagrams(String[] strs) {
-        List<List<String>> groupedAnagrams = new ArrayList<>();
-        
-        if (strs.length == 0) {
-            return groupedAnagrams;
-        }
-        
+        //Brute - sorted key and map then
         HashMap<String, List<String>> map = new HashMap<>();
-        
-        for(String str : strs) {
-            
-            char[] charArray = str.toCharArray();
-            Arrays.sort(charArray);
-            String anagramString = new String(charArray);
-            
-            if(!map.containsKey(anagramString)) {
-                map.put(anagramString, new ArrayList<>());
-            }
-            
-            map.get(anagramString).add(str);
+
+        for(String word : strs){
+            char[] chars = word.toCharArray();
+            Arrays.sort(chars);
+            String sortedWord = new String(chars);
+
+            map.computeIfAbsent(sortedWord, k -> new ArrayList<>()).add(word);
         }
-        
-        groupedAnagrams.addAll(map.values());
-        return groupedAnagrams;
+
+        return new ArrayList<>(map.values());
     }
 }
