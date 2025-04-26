@@ -1,15 +1,17 @@
 class Solution {
     public int numPairsDivisibleBy60(int[] time) {
-        int[] remCount = new int[60];
-        int pairCount = 0;
-        
+       long[] songs = new long[60];
+
         for(int t : time){
-            int remainder = t % 60;
-            int complement = (60 - remainder) % 60;
-            pairCount += remCount[complement]; 
-            remCount[remainder]++;   
+            songs[t % 60]++;
         }
-        
-        return pairCount;
+
+        int pairs = 0;
+        for(int i = 1 ; i < 30 ; i++){
+            pairs += songs[i] * songs[60-i];
+        }
+        pairs += (songs[0] * (songs[0]-1)) / 2;
+        pairs += (songs[30] * (songs[30]-1)) / 2;
+        return pairs;
     }
 }
