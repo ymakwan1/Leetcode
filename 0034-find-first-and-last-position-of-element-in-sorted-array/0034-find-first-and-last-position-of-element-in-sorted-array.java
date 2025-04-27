@@ -1,47 +1,58 @@
 class Solution {
-    public int findFirstOccurrence(int[] nums, int target) {
-        int lo = -1, hi = nums.length;
-        while (lo + 1 < hi) {
-            int mid = lo + (hi - lo) / 2;
-            if (isGreaterOrEqual(nums[mid], target)) {
-                hi = mid;
-            } else {
-                lo = mid;
-            }
-        }
-        if (hi == nums.length || nums[hi] != target) {
-            return -1;
-        }
-        return hi;
-    }
-
-    public int findLastOccurrence(int[] nums, int target) {
-        int lo = -1, hi = nums.length;
-        while (lo + 1 < hi) {
-            int mid = lo + (hi - lo) / 2;
-            if (isSmallerOrEqual(nums[mid], target)) {
-                lo = mid;
-            } else {
-                hi = mid;
-            }
-        }
-        if (lo == -1 || nums[lo] != target) {
-            return -1;
-        }
-        return lo;
-    }
-
     public int[] searchRange(int[] nums, int target) {
-        int first = findFirstOccurrence(nums, target);
-        int last = findLastOccurrence(nums, target);
+        // int first = firstOcc(nums, target);
+        // int last = lastOcc(nums, target);
+        // return new int[]{first, last};
+
+        int first = -1, last = -1;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] == target) {
+                if (first == -1) {
+                    first = i;
+                }
+                last = i;
+            }
+        }
         return new int[]{first, last};
     }
 
-    private boolean isGreaterOrEqual(int a, int b) {
-        return a >= b;
+    private int lastOcc(int[] nums, int target){
+        int low = 0;
+        int high = nums.length - 1;
+        int res = -1;
+        while(low<=high){
+            int mid = low + (high - low) / 2;
+            //System.out.println(mid);
+            if(nums[mid] == target){
+                res = mid;
+                low = mid + 1;
+            }
+            if(nums[mid] > target){
+                high = mid - 1;   
+            }else {
+                low = mid + 1;
+            }
+        }
+        return res;
     }
 
-    private boolean isSmallerOrEqual(int a, int b) {
-        return a <= b;
+    private int firstOcc(int[] nums, int target){
+        int low = 0;
+        int high = nums.length - 1;
+        int res = -1;
+        while(low<=high){
+            int mid = low + (high - low) / 2;
+            //System.out.println(mid);
+            if(nums[mid] == target){
+                res = mid;
+                high = mid - 1;
+            }
+            if(nums[mid] < target){
+                low = mid + 1; 
+            }else {
+                high = mid - 1; 
+            }
+        }
+        return res;
     }
 }
