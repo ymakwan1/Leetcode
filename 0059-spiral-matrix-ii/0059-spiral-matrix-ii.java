@@ -1,6 +1,5 @@
 class Solution {
     public int[][] generateMatrix(int n) {
-        List<Integer> result = new ArrayList<>();
         int[][] matrix = new int[n][n];
         int val = 1;
         int left = 0;
