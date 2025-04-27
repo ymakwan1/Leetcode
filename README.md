@@ -517,6 +517,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0684-redundant-connection](https://github.com/ymakwan1/Leetcode/tree/master/0684-redundant-connection) |
 | [0721-accounts-merge](https://github.com/ymakwan1/Leetcode/tree/master/0721-accounts-merge) |
 | [0744-network-delay-time](https://github.com/ymakwan1/Leetcode/tree/master/0744-network-delay-time) |
+| [0753-open-the-lock](https://github.com/ymakwan1/Leetcode/tree/master/0753-open-the-lock) |
 | [0787-sliding-puzzle](https://github.com/ymakwan1/Leetcode/tree/master/0787-sliding-puzzle) |
 | [0801-is-graph-bipartite](https://github.com/ymakwan1/Leetcode/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/ymakwan1/Leetcode/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -778,6 +779,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0719-find-k-th-smallest-pair-distance](https://github.com/ymakwan1/Leetcode/tree/master/0719-find-k-th-smallest-pair-distance) |
 | [0721-accounts-merge](https://github.com/ymakwan1/Leetcode/tree/master/0721-accounts-merge) |
 | [0735-asteroid-collision](https://github.com/ymakwan1/Leetcode/tree/master/0735-asteroid-collision) |
+| [0753-open-the-lock](https://github.com/ymakwan1/Leetcode/tree/master/0753-open-the-lock) |
 | [0780-max-chunks-to-make-sorted](https://github.com/ymakwan1/Leetcode/tree/master/0780-max-chunks-to-make-sorted) |
 | [0787-sliding-puzzle](https://github.com/ymakwan1/Leetcode/tree/master/0787-sliding-puzzle) |
 | [0854-making-a-large-island](https://github.com/ymakwan1/Leetcode/tree/master/0854-making-a-large-island) |
@@ -938,6 +940,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/ymakwan1/Leetcode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0721-accounts-merge](https://github.com/ymakwan1/Leetcode/tree/master/0721-accounts-merge) |
 | [0726-number-of-atoms](https://github.com/ymakwan1/Leetcode/tree/master/0726-number-of-atoms) |
+| [0753-open-the-lock](https://github.com/ymakwan1/Leetcode/tree/master/0753-open-the-lock) |
 | [0870-magic-squares-in-grid](https://github.com/ymakwan1/Leetcode/tree/master/0870-magic-squares-in-grid) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/ymakwan1/Leetcode/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0906-walking-robot-simulation](https://github.com/ymakwan1/Leetcode/tree/master/0906-walking-robot-simulation) |
@@ -1313,6 +1316,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0664-strange-printer](https://github.com/ymakwan1/Leetcode/tree/master/0664-strange-printer) |
 | [0721-accounts-merge](https://github.com/ymakwan1/Leetcode/tree/master/0721-accounts-merge) |
 | [0726-number-of-atoms](https://github.com/ymakwan1/Leetcode/tree/master/0726-number-of-atoms) |
+| [0753-open-the-lock](https://github.com/ymakwan1/Leetcode/tree/master/0753-open-the-lock) |
 | [0878-shifting-letters](https://github.com/ymakwan1/Leetcode/tree/master/0878-shifting-letters) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/ymakwan1/Leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/ymakwan1/Leetcode/tree/master/1093-recover-a-tree-from-preorder-traversal) |
