@@ -13,35 +13,62 @@
  *     }
  * }
  */
+ class BSTIterator {
+    private Stack<TreeNode> stack = new Stack<>();
+    private boolean reverse;
+
+    public BSTIterator(TreeNode root, boolean isReverse) {
+        reverse = isReverse;
+        pushAll(root);
+    }
+    
+    public int next() {
+        TreeNode temp = stack.pop();
+        if(reverse == false){
+            pushAll(temp.right);
+        }else{
+            pushAll(temp.left);
+        }
+        return temp.val;
+    }
+    
+    public boolean hasNext() {
+        return !stack.isEmpty();
+    }
+
+    private void pushAll(TreeNode node){
+        while(node != null){
+            stack.push(node);
+            if(reverse == true){
+                node = node.right;
+            }else{
+                node = node.left;
+            }
+        }
+    }
+}
 class Solution {
     public boolean findTarget(TreeNode root, int k) {
-        List<Integer> result = new ArrayList<>();
-        dfs(root, result);
-        return twoSum(result, k);
-    }
-
-    private void dfs(TreeNode root, List<Integer> result){
         if(root == null){
-            return;
+            return false;
         }
 
-        dfs(root.left, result);
-        result.add(root.val);
-        dfs(root.right, result);
-    }
+        BSTIterator l = new BSTIterator(root, false);
+        BSTIterator r = new BSTIterator(root, true);
 
-    public boolean twoSum(List<Integer> nums, int target) {
-        HashMap<Integer, Integer> twoSumIndices = new HashMap<Integer, Integer>();
-        
-        for(int i = 0; i < nums.size(); i++){
-            int difference = target - nums.get(i);
-            
-            if(twoSumIndices.containsKey(difference)){
+        int i = l.next();
+        int j = r.next();
+
+        while(i < j){
+            if(i + j == k){
                 return true;
+            }else if(i + j < k){
+                i = l.next();
+            }else{
+                j = r.next();
             }
-            
-            twoSumIndices.put(nums.get(i), i);
         }
+
         return false;
     }
 }
