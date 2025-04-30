@@ -15,7 +15,7 @@
  */
  class BSTIterator {
     private Stack<TreeNode> stack = new Stack<>();
-    private boolean reverse = true;
+    private boolean reverse;
 
     public BSTIterator(TreeNode root, boolean isReverse) {
         reverse = isReverse;
