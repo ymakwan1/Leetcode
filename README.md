@@ -916,6 +916,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/ymakwan1/Leetcode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ymakwan1/Leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 | [3594-identify-the-largest-outlier-in-an-array](https://github.com/ymakwan1/Leetcode/tree/master/3594-identify-the-largest-outlier-in-an-array) |
+| [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/ymakwan1/Leetcode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Hash Table
 |  |
 | ------- |
@@ -1243,6 +1244,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/ymakwan1/Leetcode/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
 | [3447-clear-digits](https://github.com/ymakwan1/Leetcode/tree/master/3447-clear-digits) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ymakwan1/Leetcode/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+| [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/ymakwan1/Leetcode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Math
 |  |
 | ------- |
@@ -1659,6 +1661,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2465-shifting-letters-ii](https://github.com/ymakwan1/Leetcode/tree/master/2465-shifting-letters-ii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/ymakwan1/Leetcode/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [3427-special-array-ii](https://github.com/ymakwan1/Leetcode/tree/master/3427-special-array-ii) |
+| [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/ymakwan1/Leetcode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Bit Manipulation
 |  |
 | ------- |
