@@ -1,44 +1,41 @@
 class RandomizedSet {
-    HashMap<Integer,Integer> valueToIndex;
-    List<Integer> values;
-    Random rand;
+    HashMap<Integer, Integer> valueIndexMap;
+    ArrayList<Integer> valueList = new ArrayList<>();
+    Random random;
+
     public RandomizedSet() {
-        valueToIndex = new HashMap<>();
-        values = new ArrayList<>();
-        rand = new Random();
+        valueIndexMap = new HashMap<>();
+        valueList = new ArrayList<>();
+        random = new Random();
     }
     
     public boolean insert(int val) {
-        if(valueToIndex.containsKey(val)){
+        if(valueIndexMap.containsKey(val)){
             return false;
         }
 
-        valueToIndex.put(val, values.size());
-        values.add(val);
+        valueIndexMap.put(val, valueList.size());
+        valueList.add(valueList.size(), val);
         return true;
     }
     
     public boolean remove(int val) {
-        if(!valueToIndex.containsKey(val)){
+        if (!valueIndexMap.containsKey(val)) {
             return false;
         }
 
-        int indexToRemove = valueToIndex.get(val);
-        int lastValue = values.get(values.size()-1);
-
-        values.set(indexToRemove, lastValue);
-        valueToIndex.put(lastValue,indexToRemove);
-
-        values.remove((values.size()-1));
-        valueToIndex.remove(val);
+        int lastElement = valueList.get(valueList.size() - 1);
+        int index = valueIndexMap.get(val);
+        valueList.set(index, lastElement);
+        valueIndexMap.put(lastElement, index);
+        valueList.remove(valueList.size() - 1);
+        valueIndexMap.remove(val);
 
         return true;
     }
     
     public int getRandom() {
-        int randomIndex = rand.nextInt(values.size());
-
-        return values.get(randomIndex);
+        return valueList.get(random.nextInt(valueList.size()));
     }
 }
 
