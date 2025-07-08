@@ -943,6 +943,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/ymakwan1/Leetcode/tree/master/0347-top-k-frequent-elements) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/ymakwan1/Leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0380-insert-delete-getrandom-o1](https://github.com/ymakwan1/Leetcode/tree/master/0380-insert-delete-getrandom-o1) |
+| [0383-ransom-note](https://github.com/ymakwan1/Leetcode/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/ymakwan1/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/ymakwan1/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
 | [0496-next-greater-element-i](https://github.com/ymakwan1/Leetcode/tree/master/0496-next-greater-element-i) |
@@ -1185,6 +1186,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/ymakwan1/Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/ymakwan1/Leetcode/tree/master/0229-majority-element-ii) |
 | [0347-top-k-frequent-elements](https://github.com/ymakwan1/Leetcode/tree/master/0347-top-k-frequent-elements) |
+| [0383-ransom-note](https://github.com/ymakwan1/Leetcode/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/ymakwan1/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0920-uncommon-words-from-two-sentences](https://github.com/ymakwan1/Leetcode/tree/master/0920-uncommon-words-from-two-sentences) |
 | [1055-pairs-of-songs-with-total-durations-divisible-by-60](https://github.com/ymakwan1/Leetcode/tree/master/1055-pairs-of-songs-with-total-durations-divisible-by-60) |
@@ -1332,6 +1334,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0241-different-ways-to-add-parentheses](https://github.com/ymakwan1/Leetcode/tree/master/0241-different-ways-to-add-parentheses) |
 | [0273-integer-to-english-words](https://github.com/ymakwan1/Leetcode/tree/master/0273-integer-to-english-words) |
 | [0316-remove-duplicate-letters](https://github.com/ymakwan1/Leetcode/tree/master/0316-remove-duplicate-letters) |
+| [0383-ransom-note](https://github.com/ymakwan1/Leetcode/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/ymakwan1/Leetcode/tree/master/0387-first-unique-character-in-a-string) |
 | [0402-remove-k-digits](https://github.com/ymakwan1/Leetcode/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/ymakwan1/Leetcode/tree/master/0424-longest-repeating-character-replacement) |
